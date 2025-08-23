@@ -10,5 +10,10 @@ Will upload:
 
 ## Workshops Links
 
-- [Folder Workshops](https://github.com/tutosrive/ED/tree/main/workshops/)
-- [Colab](https://github.com/tutosrive/ED/tree/main/workshops/colab)
+- [Folder Workshops](https://github.com/tutosrive/ED/tree/main/src/workshops/)
+- [Colab](https://github.com/tutosrive/ED/tree/main/src/workshops/colab)
+
+## Explanations (Teacher)
+
+- [Folder Explanations - Teacher](https://github.com/tutosrive/ED/tree/main/src/explanations/teacher/)
+- [Colab](https://github.com/tutosrive/ED/tree/main/src/explanations/teacher/colab)
