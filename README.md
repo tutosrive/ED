@@ -17,3 +17,8 @@ Will upload:
 
 - [Folder Explanations - Teacher](https://github.com/tutosrive/ED/tree/main/src/explanations/teacher/)
 - [Colab](https://github.com/tutosrive/ED/tree/main/src/explanations/teacher/colab)
+
+## Homeworks
+
+- Tree
+   - [Search and remove node from the **Tree**](https://github.com/tutosrive/ED/tree/main/src/HOMEWORKS/BTS/BTS_search_and_remove.ipynb)
