@@ -1,84 +1,16 @@
-// ========================================
-// ED - Estructuras de Datos
-// JavaScript Functionality
-// ========================================
+// Code files from the ED repository
+// Organized by sections
 
-// Wait for DOM to be ready
-document.addEventListener('DOMContentLoaded', function() {
-    initParticles();
-    initMobileMenu();
-    initPlayground();
-});
-
-// ========================================
-// Floating Particles Animation
-// ========================================
-function initParticles() {
-    const particlesContainer = document.getElementById('particles');
-    if (!particlesContainer) return;
-    
-    const particleCount = 30;
-    
-    for (let i = 0; i < particleCount; i++) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.style.left = Math.random() * 100 + '%';
-        particle.style.top = Math.random() * 100 + '%';
-        particle.style.animationDelay = Math.random() * 10 + 's';
-        particle.style.animationDuration = (10 + Math.random() * 20) + 's';
-        
-        const colors = ['#00f0ff', '#7b2ff7', '#f72585', '#00ff88'];
-        particle.style.background = colors[Math.floor(Math.random() * colors.length)];
-        
-        particlesContainer.appendChild(particle);
-    }
-}
-
-// ========================================
-// Mobile Menu
-// ========================================
-function initMobileMenu() {
-    const menuBtn = document.getElementById('mobileMenuBtn');
-    const mobileMenu = document.getElementById('mobileMenu');
-    
-    if (!menuBtn || !mobileMenu) return;
-    
-    menuBtn.addEventListener('click', function() {
-        mobileMenu.classList.toggle('active');
-        const icon = menuBtn.querySelector('i');
-        if (mobileMenu.classList.contains('active')) {
-            icon.classList.remove('fa-bars');
-            icon.classList.add('fa-times');
-        } else {
-            icon.classList.remove('fa-times');
-            icon.classList.add('fa-bars');
-        }
-    });
-    
-    // Close menu on link click
-    mobileMenu.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', function() {
-            mobileMenu.classList.remove('active');
-            const icon = menuBtn.querySelector('i');
-            icon.classList.remove('fa-times');
-            icon.classList.add('fa-bars');
-        });
-    });
-}
-
-// ========================================
-// Playground Functionality
-// ========================================
-let monacoEditor = null;
-let currentFile = null;
-
-const codeFiles = {
-    // Workshop 1
-    'binary_search': {
-        name: 'Binary Search',
-        description: 'Implementar un algoritmo recursivo que, dada una lista ordenada y un elemento, devuelva el índice del elemento o -1 si no se encuentra. Utiliza recursividad de pila (LIFO).',
-        author: 'Santiago Rivera Marin',
-        code: `from typing import Union
+export const codeFiles = {
+  // Workshop 1 - Recursion
+  'binary_search': {
+    id: 'binary_search',
+    name: 'Binary Search',
+    filename: 'binary_search.py',
+    category: 'workshop',
+    description: 'Implementar un algoritmo recursivo que, dada una lista ordenada y un elemento, devuelva el índice del elemento o -1 si no se encuentra. Utiliza recursividad de pila (LIFO).',
+    author: 'Santiago Rivera Marin',
+    code: `from typing import Union
 
 def binary_search(lista: list, value: int, left: int, right: int):
     medio = (left + right) // 2
@@ -113,12 +45,15 @@ index: Union[int, None] = binary_search(list_integer, int_to_find, left, right)
 print(f"Searching for: {int_to_find}")
 print(f"Found at index: {index}")
 `
-    },
-    'binary_search_random': {
-        name: 'Binary Search (Random Tests)',
-        description: 'Test del algoritmo de Binary Search usando valores aleatorios.',
-        author: 'Santiago Rivera Marin',
-        code: `from typing import Union
+  },
+  'binary_search_random': {
+    id: 'binary_search_random',
+    name: 'Binary Search (Random Tests)',
+    filename: 'binary_search_random.py',
+    category: 'workshop',
+    description: 'Test del algoritmo de Binary Search usando valores aleatorios.',
+    author: 'Santiago Rivera Marin',
+    code: `from typing import Union
 from random import randint as rdint
 
 def binary_search(lista: list, value: int, left: int, right: int):
@@ -161,12 +96,15 @@ index: Union[int, None] = binary_search(list_integer, int_to_find, left, right)
 
 print(f"{index=}")
 `
-    },
-    'factorial_stack': {
-        name: 'Factorial (Stack Recursion)',
-        description: 'Implementar el cálculo factorial con recursividad de pila (LIFO). Este método almacena cada llamada en el stack hasta llegar al caso base.',
-        author: 'Santiago Rivera Marin',
-        code: `# Factorial using Stack Recursion (LIFO)
+  },
+  'factorial_stack': {
+    id: 'factorial_stack',
+    name: 'Factorial (Stack Recursion)',
+    filename: 'factorial_stack.py',
+    category: 'workshop',
+    description: 'Implementar el cálculo factorial con recursividad de pila (LIFO). Este método almacena cada llamada en el stack hasta llegar al caso base.',
+    author: 'Santiago Rivera Marin',
+    code: `# Factorial using Stack Recursion (LIFO)
 # If n == 5
 # Factorial(n) = 5x4x3x2x1 = 120
 # Base Case: n == 2 (Any value by 1 is the same value)
@@ -190,12 +128,15 @@ for n in test_values:
     fact_pila: int = factorial_pila(n)
     print(f"The factorial of {n} (Using LIFO), is: {fact_pila}")
 `
-    },
-    'factorial_tail': {
-        name: 'Factorial (Tail Recursion)',
-        description: 'Implementar el cálculo factorial con recursividad de cola (FIFO). Este método es más eficiente en memoria ya que no acumula llamadas en el stack.',
-        author: 'Santiago Rivera Marin',
-        code: `# Factorial using Tail Recursion (FIFO)
+  },
+  'factorial_tail': {
+    id: 'factorial_tail',
+    name: 'Factorial (Tail Recursion)',
+    filename: 'factorial_tail.py',
+    category: 'workshop',
+    description: 'Implementar el cálculo factorial con recursividad de cola (FIFO). Este método es más eficiente en memoria ya que no acumula llamadas en el stack.',
+    author: 'Santiago Rivera Marin',
+    code: `# Factorial using Tail Recursion (FIFO)
 # If n == 5
 # Factorial(n) = 5x4x3x2x1 = 120
 # Base Case: n == 2 (Any value by 1 is the same value)
@@ -221,12 +162,15 @@ for n in test_values:
     factorial_cola(n, fact_cola)
     print(f"The factorial of {n} (Using FIFO), is: {fact_cola[0]}")
 `
-    },
-    'list_sum': {
-        name: 'Sum of List Elements',
-        description: 'Implementar la suma de los elementos de una lista usando recursividad de cola (FIFO).',
-        author: 'Santiago Rivera Marin',
-        code: `# Sum of list elements using Tail Recursion (FIFO)
+  },
+  'list_sum': {
+    id: 'list_sum',
+    name: 'Sum of List Elements',
+    filename: 'list_sum.py',
+    category: 'workshop',
+    description: 'Implementar la suma de los elementos de una lista usando recursividad de cola (FIFO).',
+    author: 'Santiago Rivera Marin',
+    code: `# Sum of list elements using Tail Recursion (FIFO)
 # Base Case: When n reaches len(list)
 
 def list_sum(index: int, array: list, result: list) -> None:
@@ -253,12 +197,15 @@ list_sum(0, num_array2, result2)
 print(f"\\nArray: {num_array2}")
 print(f"The addition of all elements is (FIFO): {result2[0]}")
 `
-    },
-    'fibonacci_tail': {
-        name: 'Fibonacci (Tail Recursion)',
-        description: 'Calcular el n-ésimo número de Fibonacci usando recursividad de cola.',
-        author: 'Santiago Rivera Marin',
-        code: `# Fibonacci using Tail Recursion
+  },
+  'fibonacci_tail': {
+    id: 'fibonacci_tail',
+    name: 'Fibonacci (Tail Recursion)',
+    filename: 'fibonacci_tail.py',
+    category: 'workshop',
+    description: 'Calcular el n-ésimo número de Fibonacci usando recursividad de cola.',
+    author: 'Santiago Rivera Marin',
+    code: `# Fibonacci using Tail Recursion
 
 def fibonacci(n: int, suma: list = [0], left: int = 0, right: int = 1):
     # To avoid use the Return
@@ -280,12 +227,15 @@ fibonacci(n, suma)
 
 print(f"\\nThe Fibonacci Serie for {n} is: {suma[0]}")
 `
-    },
-    'fibonacci_memoization': {
-        name: 'Fibonacci (Memoization)',
-        description: 'Calcular el n-ésimo número de Fibonacci usando recursividad de pila con memorización para optimizar el rendimiento.',
-        author: 'Santiago Rivera Marin',
-        code: `# Fibonacci with Memoization (Stack Recursion)
+  },
+  'fibonacci_memoization': {
+    id: 'fibonacci_memoization',
+    name: 'Fibonacci (Memoization)',
+    filename: 'fibonacci_memo.py',
+    category: 'workshop',
+    description: 'Calcular el n-ésimo número de Fibonacci usando recursividad de pila con memorización para optimizar el rendimiento.',
+    author: 'Santiago Rivera Marin',
+    code: `# Fibonacci with Memoization (Stack Recursion)
 
 def fibonacci_memo(n: int, values: dict):
     # Base Case
@@ -321,13 +271,16 @@ fibo: int = fibonacci_memo(n, dict_values)
 print(f"Memoization cache: {dict_values}")
 print(f"\\nThe Fibonacci Serie for {n} is: {fibo}")
 `
-    },
-    // BST - Teacher
-    'bst_teacher': {
-        name: 'BST (Teacher - Jotarlo)',
-        description: 'Binary Search Tree implementation taught by Professor Jotarlo. Includes Node class and BST with insert, search, delete, and traversal methods.',
-        author: 'Profesor Jotarlo',
-        code: `# Binary Search Tree - Professor Jotarlo
+  },
+  // BST - Teacher
+  'bst_teacher': {
+    id: 'bst_teacher',
+    name: 'BST (Teacher - Jotarlo)',
+    filename: 'bst_teacher.py',
+    category: 'teacher',
+    description: 'Binary Search Tree implementation taught by Professor Jotarlo. Includes Node class and BST with insert, search, delete, and traversal methods.',
+    author: 'Profesor Jotarlo',
+    code: `# Binary Search Tree - Professor Jotarlo
 # Universidad de Caldas - Estructuras de Datos
 
 class Node:
@@ -467,13 +420,16 @@ if __name__ == "__main__":
     bst.inorder()
     print()
 `
-    },
-    // BST - Homework
-    'bst_homework': {
-        name: 'BST Search & Remove (Homework)',
-        description: 'Complete Binary Search Tree implementation with search and remove operations, including pre-order and post-order traversals.',
-        author: 'Santiago Rivera Marin',
-        code: `# BST - Search and Remove Homework
+  },
+  // BST - Homework
+  'bst_homework': {
+    id: 'bst_homework',
+    name: 'BST Search & Remove (Homework)',
+    filename: 'bst_search_remove.py',
+    category: 'homework',
+    description: 'Complete Binary Search Tree implementation with search and remove operations, including pre-order and post-order traversals.',
+    author: 'Santiago Rivera Marin',
+    code: `# BST - Search and Remove Homework
 # By: Santiago Rivera Marin
 
 from typing import Optional
@@ -638,13 +594,16 @@ print("\\n--- Deleting node 30 ---")
 bst.delete(30)
 bst.print_tree(bst.root)
 `
-    },
-    // Graphs
-    'graph_basic': {
-        name: 'Graph (Basic)',
-        description: 'Creación del código para la construcción de un grafo no dirigido, considerando aristas y vértices mediante listas de adyacencias.',
-        author: 'Profesor Jotarlo',
-        code: `# Graph Implementation with Adjacency List
+  },
+  // Graphs
+  'graph_basic': {
+    id: 'graph_basic',
+    name: 'Graph (Basic)',
+    filename: 'graph_basic.py',
+    category: 'teacher',
+    description: 'Creación del código para la construcción de un grafo no dirigido, considerando aristas y vértices mediante listas de adyacencias.',
+    author: 'Profesor Jotarlo',
+    code: `# Graph Implementation with Adjacency List
 # Professor Jotarlo - Universidad de Caldas
 
 class Vertex:
@@ -702,12 +661,15 @@ g.print_graph()
 print("=" * 40)
 print(f"Total vertices: {g.num_vertex}")
 `
-    },
-    'graph_visualization': {
-        name: 'Graph Visualization (NetworkX)',
-        description: 'Visualización de grafos usando NetworkX y Matplotlib. Este código muestra cómo convertir nuestro grafo a formato NetworkX para visualización.',
-        author: 'Profesor Jotarlo',
-        code: `# Graph Visualization with NetworkX
+  },
+  'graph_visualization': {
+    id: 'graph_visualization',
+    name: 'Graph Visualization (NetworkX)',
+    filename: 'graph_visualization.py',
+    category: 'teacher',
+    description: 'Visualización de grafos usando NetworkX y Matplotlib. Este código muestra cómo convertir nuestro grafo a formato NetworkX para visualización.',
+    author: 'Profesor Jotarlo',
+    code: `# Graph Visualization with NetworkX
 # Note: This requires networkx and matplotlib libraries
 # Run: pip install networkx matplotlib
 
@@ -788,12 +750,15 @@ plt.title("Graph Visualization with NetworkX", fontsize=14)
 plt.show()
 ''')
 `
-    },
-    'graph_complete': {
-        name: 'Graph (Complete Implementation)',
-        description: 'Implementación completa de grafos con BFS, DFS y más operaciones.',
-        author: 'Profesor Jotarlo',
-        code: `# Complete Graph Implementation
+  },
+  'graph_complete': {
+    id: 'graph_complete',
+    name: 'Graph (Complete Implementation)',
+    filename: 'graph_complete.py',
+    category: 'teacher',
+    description: 'Implementación completa de grafos con BFS, DFS y más operaciones.',
+    author: 'Profesor Jotarlo',
+    code: `# Complete Graph Implementation
 # With BFS and DFS traversals
 
 from collections import deque
@@ -910,193 +875,28 @@ print(f"Graph: {g}")
 print(f"\\nBFS from 'A': {g.bfs('A')}")
 print(f"DFS from 'A': {g.dfs('A')}")
 `
-    }
+  }
 };
 
-function initPlayground() {
-    // Initialize folder toggles
-    document.querySelectorAll('.folder-toggle').forEach(toggle => {
-        toggle.addEventListener('click', function() {
-            this.classList.toggle('open');
-            const contents = this.nextElementSibling;
-            if (contents) {
-                contents.classList.toggle('open');
-            }
-        });
-    });
+export const categories = {
+  workshop: {
+    id: 'workshop',
+    name: 'Taller 1 - Recursividad',
+    icon: '📝',
+    color: '#00f0ff'
+  },
+  teacher: {
+    id: 'teacher',
+    name: 'Explicaciones - Profesor',
+    icon: '👨‍🏫',
+    color: '#7b2ff7'
+  },
+  homework: {
+    id: 'homework',
+    name: 'Tareas',
+    icon: '📚',
+    color: '#f72585'
+  }
+};
 
-    // Initialize file buttons
-    document.querySelectorAll('.file-btn').forEach(btn => {
-        btn.addEventListener('click', function() {
-            const fileId = this.getAttribute('data-file');
-            loadFile(fileId);
-            
-            // Update active state
-            document.querySelectorAll('.file-btn').forEach(b => b.classList.remove('active'));
-            this.classList.add('active');
-        });
-    });
-
-    // Initialize Monaco Editor
-    if (document.getElementById('monaco-editor')) {
-        loadMonacoEditor();
-    }
-
-    // Initialize run button
-    const runBtn = document.getElementById('runBtn');
-    if (runBtn) {
-        runBtn.addEventListener('click', runCode);
-    }
-
-    // Initialize copy button
-    const copyBtn = document.getElementById('copyBtn');
-    if (copyBtn) {
-        copyBtn.addEventListener('click', copyCode);
-    }
-
-    // Initialize clear output button
-    const clearBtn = document.getElementById('clearOutputBtn');
-    if (clearBtn) {
-        clearBtn.addEventListener('click', clearOutput);
-    }
-
-    // Check URL hash and load corresponding file
-    const hash = window.location.hash.substring(1);
-    if (hash && codeFiles[hash]) {
-        loadFile(hash);
-    } else {
-        // Load first file by default
-        loadFile('binary_search');
-    }
-}
-
-function loadMonacoEditor() {
-    // Load Monaco Editor from CDN
-    require.config({ paths: { 'vs': 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.44.0/min/vs' }});
-    
-    require(['vs/editor/editor.main'], function() {
-        // Define custom theme
-        monaco.editor.defineTheme('futuristicDark', {
-            base: 'vs-dark',
-            inherit: true,
-            rules: [
-                { token: 'keyword', foreground: 'f72585', fontStyle: 'bold' },
-                { token: 'string', foreground: 'ffcc00' },
-                { token: 'number', foreground: '00ff88' },
-                { token: 'comment', foreground: '6272a4', fontStyle: 'italic' },
-                { token: 'function', foreground: '00f0ff' },
-                { token: 'variable', foreground: 'ffffff' },
-                { token: 'type', foreground: '7b2ff7' }
-            ],
-            colors: {
-                'editor.background': '#1e1e2e',
-                'editor.foreground': '#ffffff',
-                'editorCursor.foreground': '#00f0ff',
-                'editor.lineHighlightBackground': '#2a2a4e',
-                'editorLineNumber.foreground': '#6272a4',
-                'editor.selectionBackground': '#44475a',
-                'editor.inactiveSelectionBackground': '#3d3d5c'
-            }
-        });
-
-        monacoEditor = monaco.editor.create(document.getElementById('monaco-editor'), {
-            value: codeFiles['binary_search'].code,
-            language: 'python',
-            theme: 'futuristicDark',
-            fontSize: 14,
-            fontFamily: "'JetBrains Mono', monospace",
-            minimap: { enabled: true },
-            automaticLayout: true,
-            scrollBeyondLastLine: false,
-            padding: { top: 16, bottom: 16 },
-            lineNumbers: 'on',
-            renderLineHighlight: 'all',
-            cursorBlinking: 'smooth',
-            cursorSmoothCaretAnimation: 'on',
-            smoothScrolling: true,
-            tabSize: 4,
-            wordWrap: 'on'
-        });
-
-        // Update current file
-        currentFile = 'binary_search';
-        updateDescription();
-    });
-}
-
-function loadFile(fileId) {
-    const file = codeFiles[fileId];
-    if (!file) return;
-
-    currentFile = fileId;
-
-    // Update editor content
-    if (monacoEditor) {
-        monacoEditor.setValue(file.code);
-    }
-
-    // Update tab name
-    const tabName = document.getElementById('currentFileName');
-    if (tabName) {
-        tabName.textContent = fileId + '.py';
-    }
-
-    // Update description
-    updateDescription();
-
-    // Update URL hash
-    window.location.hash = fileId;
-}
-
-function updateDescription() {
-    const descContainer = document.getElementById('codeDescription');
-    if (!descContainer || !currentFile) return;
-
-    const file = codeFiles[currentFile];
-    descContainer.innerHTML = `
-        <h3><i class="fas fa-info-circle"></i> ${file.name}</h3>
-        <p>${file.description}</p>
-        <p><strong>Autor:</strong> ${file.author}</p>
-    `;
-}
-
-function runCode() {
-    const outputContent = document.getElementById('outputContent');
-    if (!outputContent) return;
-
-    const code = monacoEditor ? monacoEditor.getValue() : '';
-    
-    outputContent.innerHTML = `<span class="info">[${new Date().toLocaleTimeString()}] Ejecutando código...</span>\n\n`;
-    
-    // Simulate code execution
-    // In a real implementation, you would send this to a backend Python executor
-    // or use something like Pyodide for browser-based Python execution
-    
-    setTimeout(() => {
-        outputContent.innerHTML += `<span class="info">[Info] Este playground es solo para visualización y edición del código.</span>\n`;
-        outputContent.innerHTML += `<span class="info">[Info] Para ejecutar el código, copia el contenido y ejecútalo en:</span>\n`;
-        outputContent.innerHTML += `  • <a href="https://colab.research.google.com" target="_blank" class="success">Google Colab</a>\n`;
-        outputContent.innerHTML += `  • <a href="https://www.online-python.com" target="_blank" class="success">Online Python</a>\n`;
-        outputContent.innerHTML += `  • Tu entorno local de Python\n\n`;
-        outputContent.innerHTML += `<span class="success">[✓] Código listo para copiar</span>`;
-    }, 500);
-}
-
-function copyCode() {
-    const code = monacoEditor ? monacoEditor.getValue() : '';
-    navigator.clipboard.writeText(code).then(() => {
-        const copyBtn = document.getElementById('copyBtn');
-        const originalHTML = copyBtn.innerHTML;
-        copyBtn.innerHTML = '<i class="fas fa-check"></i> Copiado!';
-        setTimeout(() => {
-            copyBtn.innerHTML = originalHTML;
-        }, 2000);
-    });
-}
-
-function clearOutput() {
-    const outputContent = document.getElementById('outputContent');
-    if (outputContent) {
-        outputContent.innerHTML = '<span class="info">Output cleared. Press "Ejecutar" to run code.</span>';
-    }
-}
+export default codeFiles;

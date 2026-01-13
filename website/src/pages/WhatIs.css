@@ -1,0 +1,15 @@
+/* WhatIs Page Styles */
+.primary-heading {
+  color: var(--primary) !important;
+  margin-top: 1.5rem !important;
+}
+
+.secondary-heading {
+  color: var(--secondary) !important;
+  margin-top: 1.5rem !important;
+}
+
+.accent-heading {
+  color: var(--accent) !important;
+  margin-top: 1.5rem !important;
+}
