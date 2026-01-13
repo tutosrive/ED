@@ -1,0 +1,31 @@
+.primary-heading {
+  color: var(--primary) !important;
+  margin-top: 1.5rem !important;
+}
+
+.secondary-heading {
+  color: var(--secondary) !important;
+  margin-top: 1.5rem !important;
+}
+
+.accent-heading {
+  color: var(--accent) !important;
+  margin-top: 1.5rem !important;
+}
+
+.code-block-wrapper {
+  margin: 1rem 0;
+}
+
+.importance-list {
+  padding-left: 1.5rem;
+}
+
+.importance-list li {
+  margin-bottom: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.importance-list strong {
+  color: var(--text-primary);
+}

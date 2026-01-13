@@ -1,0 +1,99 @@
+.info-list {
+  margin-top: 1.5rem;
+}
+
+.info-list p {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info-icon {
+  display: flex;
+  align-items: center;
+  color: var(--primary);
+}
+
+.info-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.credits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.university-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.university-logo {
+  flex-shrink: 0;
+}
+
+.university-logo img {
+  width: 120px;
+  height: auto;
+  filter: drop-shadow(0 0 10px rgba(0, 240, 255, 0.3));
+}
+
+.university-info {
+  flex: 1;
+}
+
+.structure-note {
+  color: var(--warning);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 193, 7, 0.1);
+  border-radius: 8px;
+  border-left: 3px solid var(--warning);
+}
+
+.structure-note code {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+}
+
+.topics-list {
+  padding-left: 1.5rem;
+}
+
+.topics-list > li {
+  margin-bottom: 1rem;
+}
+
+.topics-list ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.topics-list li {
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.topics-list strong {
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .university-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .info-list p {
+    justify-content: center;
+  }
+}
