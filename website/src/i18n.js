@@ -95,6 +95,9 @@ const resources = {
         author: 'Autor',
         welcome: 'Bienvenido al Playground de Estructuras de Datos',
         instructions: 'Para ejecutar el código:\n  1. Selecciona un archivo del panel izquierdo\n  2. Edita el código si lo deseas\n  3. El código tiene resaltado de sintaxis Python',
+        loadingFiles: 'Cargando archivos...',
+        loadingFile: 'Cargando archivo...',
+        refresh: 'Actualizar',
         explore: '¡Explora y aprende!'
       },
       license: {
@@ -242,6 +245,9 @@ const resources = {
         author: 'Author',
         welcome: 'Welcome to the Data Structures Playground',
         instructions: 'To run the code:\n  1. Select a file from the left panel\n  2. Edit the code if you wish\n  3. The code has Python syntax highlighting',
+        loadingFiles: 'Loading files...',
+        loadingFile: 'Loading file...',
+        refresh: 'Refresh',
         explore: 'Explore and learn!'
       },
       license: {

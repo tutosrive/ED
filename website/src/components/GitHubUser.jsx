@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import axios from 'axios'
 import Icons from './Icons';
 import './GitHubUser.css';
 
@@ -9,10 +10,11 @@ function GitHubUser({ username, role, roleDescription }) {
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await fetch(`https://api.github.com/users/${username}`);
-        if (response.ok) {
-          const data = await response.json();
-          setUserData(data);
+        try {
+          const response = await axios.get(`https://api.github.com/users/${username}`, { timeout: 10000 })
+          setUserData(response.data)
+        } catch (e) {
+          // keep silent; show placeholder
         }
       } catch {
         console.error('Error fetching GitHub user data');
