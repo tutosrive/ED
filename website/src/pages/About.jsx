@@ -83,7 +83,7 @@ function About() {
           <p className="structure-note">El sitio web se despliega desde la rama <code>web</code> del repositorio.</p>
           <pre className="code-block">
 {`ED/
-├── src/
+├── src_removed_backup_20260113T211020Z/  (contenido movido — ver backup)
 │   ├── workshops/
 │   │   └── colab/
 │   │       └── workshop_1_ED.ipynb
@@ -100,7 +100,7 @@ function About() {
 └── README.md
 
 web branch:
-└── website/                (Este sitio web - React)`}
+└── website/                (Este sitio web - React)`}{
           </pre>
         </div>
 
