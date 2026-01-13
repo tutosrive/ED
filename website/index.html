@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ED - Estructuras de Datos | Universidad de Caldas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="grid-lines"></div>
+        <div class="floating-particles" id="particles"></div>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⟨/⟩</span>
+                <span class="logo-text">ED</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="what-is.html"><i class="fas fa-question-circle"></i> ¿Qué es?</a></li>
+                <li><a href="playground.html"><i class="fas fa-code"></i> Playground</a></li>
+                <li><a href="license.html"><i class="fas fa-file-contract"></i> Licencia</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+            <li><a href="what-is.html"><i class="fas fa-question-circle"></i> ¿Qué es?</a></li>
+            <li><a href="playground.html"><i class="fas fa-code"></i> Playground</a></li>
+            <li><a href="license.html"><i class="fas fa-file-contract"></i> Licencia</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>Universidad de Caldas</span>
+                </div>
+                <h1 class="glitch-text" data-text="ESTRUCTURAS DE DATOS">ESTRUCTURAS DE DATOS</h1>
+                <p class="hero-subtitle">
+                    Ingeniería de Sistemas y Computación<br>
+                    <span class="highlight">Manizales, Caldas - Colombia</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="playground.html" class="btn btn-primary">
+                        <i class="fas fa-play"></i> Explorar Playground
+                    </a>
+                    <a href="about.html" class="btn btn-secondary">
+                        <i class="fas fa-book"></i> Ver Documentación
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window glass-card">
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="window-title">binary_search.py</span>
+                    </div>
+                    <pre class="code-preview"><code class="python"><span class="keyword">def</span> <span class="function">binary_search</span>(lista, value, left, right):
+    medio = (left + right) // <span class="number">2</span>
+    
+    <span class="keyword">if</span> medio > (len(lista) - <span class="number">1</span>) <span class="keyword">or</span> right < left:
+        <span class="keyword">return</span> <span class="number">-1</span>
+    <span class="keyword">elif</span> lista[medio] == value:
+        <span class="keyword">return</span> medio
+
+    <span class="keyword">if</span> value > lista[medio]:
+        left = medio + <span class="number">1</span>
+    <span class="keyword">else</span>:
+        right = medio - <span class="number">1</span>
+
+    <span class="keyword">return</span> binary_search(lista, value, left, right)</code></pre>
+                </div>
+                <div class="floating-elements">
+                    <div class="float-el tree-icon"><i class="fas fa-sitemap"></i></div>
+                    <div class="float-el graph-icon"><i class="fas fa-project-diagram"></i></div>
+                    <div class="float-el code-icon"><i class="fas fa-terminal"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2 class="section-title">Contenido del Curso</h2>
+            <div class="features-grid">
+                <div class="feature-card glass-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3>Árboles Binarios</h3>
+                    <p>Implementación de BST (Binary Search Tree) con operaciones de inserción, búsqueda y eliminación.</p>
+                    <a href="playground.html#bst" class="feature-link">Ver código <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Grafos</h3>
+                    <p>Grafos dirigidos y no dirigidos con listas de adyacencia y visualización con NetworkX.</p>
+                    <a href="playground.html#graphs" class="feature-link">Ver código <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sort-amount-down"></i>
+                    </div>
+                    <h3>Recursividad</h3>
+                    <p>Algoritmos recursivos: Binary Search, Factorial (LIFO/FIFO), Fibonacci con memorización.</p>
+                    <a href="playground.html#recursion" class="feature-link">Ver código <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Playground Interactivo</h3>
+                    <p>Explora y ejecuta todos los códigos del curso en un editor interactivo en línea.</p>
+                    <a href="playground.html" class="feature-link">Ir al Playground <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="stats-container glass-card">
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Notebooks</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Algoritmos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Python</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">Aprendizaje</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Créditos</h4>
+                <p><strong>Santiago Rivera Marin</strong><br>Estudiante - 4to Semestre</p>
+                <p><strong>Profesor Jotarlo</strong><br>Docente del curso</p>
+            </div>
+            <div class="footer-section">
+                <h4>Universidad</h4>
+                <p>Universidad de Caldas<br>Ingeniería de Sistemas y Computación<br>Manizales, Caldas - Colombia</p>
+            </div>
+            <div class="footer-section">
+                <h4>Repositorio</h4>
+                <a href="https://github.com/tutosrive/ED" target="_blank" class="github-link">
+                    <i class="fab fa-github"></i> tutosrive/ED
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 - Estructuras de Datos - Licencia GPL v3</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

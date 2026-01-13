@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground - ED | Universidad de Caldas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="grid-lines"></div>
+        <div class="floating-particles" id="particles"></div>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⟨/⟩</span>
+                <span class="logo-text">ED</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="what-is.html"><i class="fas fa-question-circle"></i> ¿Qué es?</a></li>
+                <li><a href="playground.html" class="active"><i class="fas fa-code"></i> Playground</a></li>
+                <li><a href="license.html"><i class="fas fa-file-contract"></i> Licencia</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+            <li><a href="what-is.html"><i class="fas fa-question-circle"></i> ¿Qué es?</a></li>
+            <li><a href="playground.html" class="active"><i class="fas fa-code"></i> Playground</a></li>
+            <li><a href="license.html"><i class="fas fa-file-contract"></i> Licencia</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <section class="page-header">
+            <h1><i class="fas fa-code"></i> Playground</h1>
+            <p>Explora y edita todos los códigos del curso de Estructuras de Datos</p>
+        </section>
+
+        <section class="playground-container">
+            <div class="playground-layout">
+                <!-- Sidebar with file tree -->
+                <aside class="sidebar">
+                    <div class="sidebar-card glass-card">
+                        <h3 class="sidebar-title"><i class="fas fa-folder-tree"></i> Archivos</h3>
+                        <ul class="file-tree">
+                            <!-- Workshop 1 - Recursion -->
+                            <li>
+                                <button class="folder-toggle open">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <i class="fas fa-folder" style="color: var(--primary);"></i>
+                                    Taller 1 - Recursividad
+                                </button>
+                                <ul class="folder-contents open">
+                                    <li>
+                                        <button class="file-btn active" data-file="binary_search">
+                                            <i class="fab fa-python"></i> binary_search.py
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="file-btn" data-file="binary_search_random">
+                                            <i class="fab fa-python"></i> binary_search_random.py
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="file-btn" data-file="factorial_stack">
+                                            <i class="fab fa-python"></i> factorial_stack.py
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="file-btn" data-file="factorial_tail">
+                                            <i class="fab fa-python"></i> factorial_tail.py
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="file-btn" data-file="list_sum">
+                                            <i class="fab fa-python"></i> list_sum.py
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="file-btn" data-file="fibonacci_tail">
+                                            <i class="fab fa-python"></i> fibonacci_tail.py
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="file-btn" data-file="fibonacci_memoization">
+                                            <i class="fab fa-python"></i> fibonacci_memo.py
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <!-- BST - Teacher -->
+                            <li>
+                                <button class="folder-toggle">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <i class="fas fa-folder" style="color: var(--secondary);"></i>
+                                    BST - Profesor
+                                </button>
+                                <ul class="folder-contents">
+                                    <li>
+                                        <button class="file-btn" data-file="bst_teacher">
+                                            <i class="fab fa-python"></i> bst_teacher.py
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- BST - Homework -->
+                            <li>
+                                <button class="folder-toggle">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <i class="fas fa-folder" style="color: var(--accent);"></i>
+                                    Tareas - BST
+                                </button>
+                                <ul class="folder-contents">
+                                    <li>
+                                        <button class="file-btn" data-file="bst_homework">
+                                            <i class="fab fa-python"></i> bst_search_remove.py
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Graphs -->
+                            <li>
+                                <button class="folder-toggle">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <i class="fas fa-folder" style="color: var(--success);"></i>
+                                    Grafos
+                                </button>
+                                <ul class="folder-contents">
+                                    <li>
+                                        <button class="file-btn" data-file="graph_basic">
+                                            <i class="fab fa-python"></i> graph_basic.py
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="file-btn" data-file="graph_visualization">
+                                            <i class="fab fa-python"></i> graph_visualization.py
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="file-btn" data-file="graph_complete">
+                                            <i class="fab fa-python"></i> graph_complete.py
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="sidebar-card glass-card" style="margin-top: 1rem;">
+                        <h3 class="sidebar-title"><i class="fas fa-external-link-alt"></i> Ejecutar Online</h3>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <a href="https://colab.research.google.com" target="_blank" class="btn btn-secondary" style="justify-content: flex-start;">
+                                <i class="fas fa-flask"></i> Google Colab
+                            </a>
+                            <a href="https://www.online-python.com" target="_blank" class="btn btn-secondary" style="justify-content: flex-start;">
+                                <i class="fab fa-python"></i> Online Python
+                            </a>
+                            <a href="https://replit.com" target="_blank" class="btn btn-secondary" style="justify-content: flex-start;">
+                                <i class="fas fa-terminal"></i> Replit
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Editor -->
+                <div class="editor-container">
+                    <!-- Code Description -->
+                    <div class="code-description" id="codeDescription">
+                        <h3><i class="fas fa-info-circle"></i> Binary Search</h3>
+                        <p>Implementar un algoritmo recursivo que, dada una lista ordenada y un elemento, devuelva el índice del elemento o -1 si no se encuentra.</p>
+                    </div>
+
+                    <!-- Editor Header -->
+                    <div class="editor-header">
+                        <div class="editor-tabs">
+                            <div class="editor-tab">
+                                <i class="fab fa-python"></i>
+                                <span id="currentFileName">binary_search.py</span>
+                            </div>
+                        </div>
+                        <div class="editor-actions">
+                            <button class="editor-btn" id="copyBtn">
+                                <i class="fas fa-copy"></i> Copiar
+                            </button>
+                            <button class="editor-btn run-btn" id="runBtn">
+                                <i class="fas fa-play"></i> Ejecutar
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Monaco Editor Container -->
+                    <div class="editor-wrapper">
+                        <div id="monaco-editor"></div>
+                    </div>
+
+                    <!-- Output Section -->
+                    <div class="output-section">
+                        <div class="output-header">
+                            <div class="output-title">
+                                <i class="fas fa-terminal"></i> Output
+                            </div>
+                            <button class="editor-btn" id="clearOutputBtn">
+                                <i class="fas fa-trash"></i> Limpiar
+                            </button>
+                        </div>
+                        <div class="output-content" id="outputContent">
+<span class="info">Bienvenido al Playground de Estructuras de Datos</span>
+
+<span class="info">Para ejecutar el código:</span>
+  1. Selecciona un archivo del panel izquierdo
+  2. Edita el código si lo deseas
+  3. Copia el código y pégalo en:
+     • Google Colab
+     • Online Python
+     • Tu entorno local de Python
+
+<span class="success">¡Explora y aprende!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Créditos</h4>
+                <p><strong>Santiago Rivera Marin</strong><br>Estudiante - 4to Semestre</p>
+                <p><strong>Profesor Jotarlo</strong><br>Docente del curso</p>
+            </div>
+            <div class="footer-section">
+                <h4>Universidad</h4>
+                <p>Universidad de Caldas<br>Ingeniería de Sistemas y Computación<br>Manizales, Caldas - Colombia</p>
+            </div>
+            <div class="footer-section">
+                <h4>Repositorio</h4>
+                <a href="https://github.com/tutosrive/ED" target="_blank" class="github-link">
+                    <i class="fab fa-github"></i> tutosrive/ED
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 - Estructuras de Datos - Licencia GPL v3</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

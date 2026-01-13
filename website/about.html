@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - ED | Universidad de Caldas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="grid-lines"></div>
+        <div class="floating-particles" id="particles"></div>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⟨/⟩</span>
+                <span class="logo-text">ED</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html" class="active"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="what-is.html"><i class="fas fa-question-circle"></i> ¿Qué es?</a></li>
+                <li><a href="playground.html"><i class="fas fa-code"></i> Playground</a></li>
+                <li><a href="license.html"><i class="fas fa-file-contract"></i> Licencia</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about.html" class="active"><i class="fas fa-info-circle"></i> About</a></li>
+            <li><a href="what-is.html"><i class="fas fa-question-circle"></i> ¿Qué es?</a></li>
+            <li><a href="playground.html"><i class="fas fa-code"></i> Playground</a></li>
+            <li><a href="license.html"><i class="fas fa-file-contract"></i> Licencia</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <section class="page-header">
+            <h1><i class="fas fa-users"></i> About</h1>
+            <p>Conoce más sobre este proyecto, los autores y la universidad</p>
+        </section>
+
+        <section class="content-section">
+            <!-- About the Course -->
+            <div class="content-card glass-card">
+                <h2><i class="fas fa-graduation-cap"></i> Sobre el Curso</h2>
+                <p>
+                    Este repositorio contiene el material desarrollado durante el curso de 
+                    <strong>Estructuras de Datos</strong>, una materia fundamental en la carrera de 
+                    Ingeniería de Sistemas y Computación en la <strong>Universidad de Caldas</strong>.
+                </p>
+                <p>
+                    El curso cubre conceptos esenciales como recursividad, árboles binarios de búsqueda (BST), 
+                    grafos y algoritmos fundamentales que todo ingeniero de software debe dominar.
+                </p>
+            </div>
+
+            <!-- Credits -->
+            <div class="content-card glass-card">
+                <h2><i class="fas fa-star"></i> Créditos</h2>
+                <div class="credits-grid">
+                    <div class="credit-item">
+                        <h3><i class="fas fa-user-graduate"></i> Santiago Rivera Marin</h3>
+                        <p>Estudiante - 4to Semestre</p>
+                        <p>Desarrollo del código, talleres y tareas del curso.</p>
+                        <a href="https://github.com/tutosrive" target="_blank" style="color: var(--primary);">
+                            <i class="fab fa-github"></i> @tutosrive
+                        </a>
+                    </div>
+                    <div class="credit-item">
+                        <h3><i class="fas fa-chalkboard-teacher"></i> Profesor Jotarlo</h3>
+                        <p>Docente del Curso</p>
+                        <p>Autor del código de explicaciones en clase (BST, Grafos).</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- University -->
+            <div class="content-card glass-card">
+                <h2><i class="fas fa-university"></i> Universidad de Caldas</h2>
+                <p>
+                    La <strong>Universidad de Caldas</strong> es una institución de educación superior 
+                    pública ubicada en <strong>Manizales, Caldas, Colombia</strong>. Fundada en 1943, 
+                    es una de las universidades más importantes de la región del Eje Cafetero.
+                </p>
+                <p>
+                    El programa de <strong>Ingeniería de Sistemas y Computación</strong> forma profesionales 
+                    capaces de diseñar, desarrollar e implementar soluciones tecnológicas que respondan 
+                    a las necesidades de la sociedad actual.
+                </p>
+                <div style="margin-top: 1.5rem;">
+                    <p><strong>📍 Ubicación:</strong> Manizales, Caldas - Colombia</p>
+                    <p><strong>🎓 Programa:</strong> Ingeniería de Sistemas y Computación</p>
+                    <p><strong>📚 Materia:</strong> Estructuras de Datos</p>
+                    <p><strong>📅 Semestre:</strong> 4to Semestre</p>
+                </div>
+            </div>
+
+            <!-- Repository -->
+            <div class="content-card glass-card">
+                <h2><i class="fab fa-github"></i> Repositorio</h2>
+                <p>
+                    Todo el código fuente de este proyecto está disponible en GitHub bajo la licencia 
+                    <strong>GPL v3</strong>. Siéntete libre de explorar, aprender y contribuir.
+                </p>
+                <div style="margin-top: 1.5rem;">
+                    <a href="https://github.com/tutosrive/ED" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> Ver Repositorio
+                    </a>
+                </div>
+            </div>
+
+            <!-- Structure -->
+            <div class="content-card glass-card">
+                <h2><i class="fas fa-folder-tree"></i> Estructura del Proyecto</h2>
+                <pre style="color: var(--text-secondary); font-family: var(--font-mono); line-height: 2;">
+ED/
+├── src/
+│   ├── workshops/
+│   │   └── colab/
+│   │       └── workshop_1_ED.ipynb       # Taller 1: Recursividad
+│   ├── explanations/
+│   │   └── teacher/
+│   │       └── colab/
+│   │           ├── BST_Jue_Vie.ipynb     # BST - Profesor Jotarlo
+│   │           ├── Graph.ipynb           # Grafos - Completo
+│   │           └── Graph_Mar_Jue.ipynb   # Grafos - Básico
+│   └── HOMEWORKS/
+│       └── BTS/
+│           └── BTS_search_and_remove.ipynb  # Tarea BST
+├── website/                              # Este sitio web
+├── LICENSE                               # GNU GPL v3
+└── README.md                             # Documentación
+                </pre>
+            </div>
+
+            <!-- Topics Covered -->
+            <div class="content-card glass-card">
+                <h2><i class="fas fa-list-check"></i> Temas Cubiertos</h2>
+                <ul>
+                    <li><strong>Recursividad:</strong>
+                        <ul>
+                            <li>Recursividad de Pila (LIFO)</li>
+                            <li>Recursividad de Cola (FIFO)</li>
+                            <li>Binary Search recursivo</li>
+                            <li>Factorial con ambos tipos de recursividad</li>
+                            <li>Fibonacci con memorización</li>
+                            <li>Suma de elementos de una lista</li>
+                        </ul>
+                    </li>
+                    <li><strong>Árboles Binarios de Búsqueda (BST):</strong>
+                        <ul>
+                            <li>Inserción de nodos</li>
+                            <li>Búsqueda de valores</li>
+                            <li>Eliminación de nodos (3 casos)</li>
+                            <li>Recorridos: In-order, Pre-order, Post-order</li>
+                            <li>Visualización del árbol en consola</li>
+                        </ul>
+                    </li>
+                    <li><strong>Grafos:</strong>
+                        <ul>
+                            <li>Representación con listas de adyacencia</li>
+                            <li>Grafos dirigidos y no dirigidos</li>
+                            <li>BFS (Breadth-First Search)</li>
+                            <li>DFS (Depth-First Search)</li>
+                            <li>Visualización con NetworkX</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Créditos</h4>
+                <p><strong>Santiago Rivera Marin</strong><br>Estudiante - 4to Semestre</p>
+                <p><strong>Profesor Jotarlo</strong><br>Docente del curso</p>
+            </div>
+            <div class="footer-section">
+                <h4>Universidad</h4>
+                <p>Universidad de Caldas<br>Ingeniería de Sistemas y Computación<br>Manizales, Caldas - Colombia</p>
+            </div>
+            <div class="footer-section">
+                <h4>Repositorio</h4>
+                <a href="https://github.com/tutosrive/ED" target="_blank" class="github-link">
+                    <i class="fab fa-github"></i> tutosrive/ED
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 - Estructuras de Datos - Licencia GPL v3</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
