@@ -44,7 +44,7 @@ function Playground() {
     }
   }
 
-  const livecodesConfig = {
+  const livecodesConfig = useMemo(() => ({
     activeEditor: 'script',
     script: {
       language: 'python',
@@ -63,7 +63,7 @@ function Playground() {
     wordWrap: true,
     theme: 'dark',
     mode: 'full'
-  }
+  }), [currentFile.code])
 
   return (
     <>
