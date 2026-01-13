@@ -1,22 +1,29 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import Icons from '../components/Icons'
+import GitHubUser from '../components/GitHubUser'
 import './About.css'
 
+const UCALDAS_LOGO = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Escudo_Universidad_de_Caldas.svg/200px-Escudo_Universidad_de_Caldas.svg.png'
+
 function About() {
+  const { t } = useTranslation()
+  
   return (
     <>
       <section className="page-header">
-        <h1>👥 About</h1>
-        <p>Conoce más sobre este proyecto, los autores y la universidad</p>
+        <h1>{Icons.about} {t('about.title')}</h1>
+        <p>{t('about.subtitle')}</p>
       </section>
 
       <section className="content-section">
-        {/* About the Course */}
         <div className="content-card glass-card">
-          <h2>🎓 Sobre el Curso</h2>
+          <h2>{Icons.university} {t('about.aboutCourse')}</h2>
           <p>
-            Este repositorio contiene el material desarrollado durante el curso de 
-            <strong> Estructuras de Datos</strong>, una materia fundamental en la carrera de 
-            Ingeniería de Sistemas y Computación en la <strong>Universidad de Caldas</strong>.
+            {t('about.courseDesc1')}
+            <strong> {t('about.dataStructures')}</strong>
+            {t('about.courseDesc2')}
+            <strong> {t('about.university')}</strong>.
           </p>
           <p>
             El curso cubre conceptos esenciales como recursividad, árboles binarios de búsqueda (BST), 
@@ -24,89 +31,82 @@ function About() {
           </p>
         </div>
 
-        {/* Credits */}
         <div className="content-card glass-card">
-          <h2>⭐ Créditos</h2>
+          <h2>{Icons.star} {t('about.credits')}</h2>
           <div className="credits-grid">
-            <div className="credit-item">
-              <h3>👨‍🎓 Santiago Rivera Marin</h3>
-              <p>Estudiante - 4to Semestre</p>
-              <p>Desarrollo del código, talleres y tareas del curso.</p>
-              <a href="https://github.com/tutosrive" target="_blank" rel="noopener noreferrer">
-                🐙 @tutosrive
-              </a>
+            <GitHubUser 
+              username="tutosrive" 
+              role={t('about.student')}
+              roleDescription={t('about.studentRole')}
+            />
+            <GitHubUser 
+              username="jotarlo" 
+              role={t('about.professor')}
+              roleDescription={t('about.professorRole')}
+            />
+          </div>
+        </div>
+
+        <div className="content-card glass-card">
+          <h2>{Icons.university} {t('about.university')}</h2>
+          <div className="university-content">
+            <div className="university-logo">
+              <img src={UCALDAS_LOGO} alt="Universidad de Caldas" />
             </div>
-            <div className="credit-item">
-              <h3>👨‍🏫 Profesor Jotarlo</h3>
-              <p>Docente del Curso</p>
-              <p>Autor del código de explicaciones en clase (BST, Grafos).</p>
+            <div className="university-info">
+              <p>{t('about.universityDesc1')}</p>
+              <p>{t('about.universityDesc2')}</p>
+              <div className="info-list">
+                <p><span className="info-icon">{Icons.location}</span> <strong>{t('about.location')}:</strong> Manizales, Caldas - Colombia</p>
+                <p><span className="info-icon">{Icons.university}</span> <strong>{t('about.program')}:</strong> {t('about.systemsEngineering')}</p>
+                <p><span className="info-icon">{Icons.book}</span> <strong>{t('about.subject')}:</strong> {t('about.dataStructures')}</p>
+                <p><span className="info-icon">{Icons.calendar}</span> <strong>{t('about.semester')}:</strong> {t('about.semesterValue')}</p>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* University */}
         <div className="content-card glass-card">
-          <h2>🏛️ Universidad de Caldas</h2>
+          <h2>{Icons.github} {t('about.repository')}</h2>
           <p>
-            La <strong>Universidad de Caldas</strong> es una institución de educación superior 
-            pública ubicada en <strong>Manizales, Caldas, Colombia</strong>. Fundada en 1943, 
-            es una de las universidades más importantes de la región del Eje Cafetero.
-          </p>
-          <p>
-            El programa de <strong>Ingeniería de Sistemas y Computación</strong> forma profesionales 
-            capaces de diseñar, desarrollar e implementar soluciones tecnológicas que respondan 
-            a las necesidades de la sociedad actual.
-          </p>
-          <div className="info-list">
-            <p><strong>📍 Ubicación:</strong> Manizales, Caldas - Colombia</p>
-            <p><strong>🎓 Programa:</strong> Ingeniería de Sistemas y Computación</p>
-            <p><strong>📚 Materia:</strong> Estructuras de Datos</p>
-            <p><strong>📅 Semestre:</strong> 4to Semestre</p>
-          </div>
-        </div>
-
-        {/* Repository */}
-        <div className="content-card glass-card">
-          <h2>🐙 Repositorio</h2>
-          <p>
-            Todo el código fuente de este proyecto está disponible en GitHub bajo la licencia 
-            <strong> GPL v3</strong>. Siéntete libre de explorar, aprender y contribuir.
+            {t('about.repoDesc')}
           </p>
           <div style={{ marginTop: '1.5rem' }}>
             <a href="https://github.com/tutosrive/ED" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-              🐙 Ver Repositorio
+              {Icons.github} {t('about.viewRepo')}
             </a>
           </div>
         </div>
 
-        {/* Structure */}
         <div className="content-card glass-card">
-          <h2>📁 Estructura del Proyecto</h2>
+          <h2>{Icons.folder} {t('about.projectStructure')}</h2>
+          <p className="structure-note">El sitio web se despliega desde la rama <code>web</code> del repositorio.</p>
           <pre className="code-block">
 {`ED/
 ├── src/
 │   ├── workshops/
 │   │   └── colab/
-│   │       └── workshop_1_ED.ipynb       # Taller 1: Recursividad
+│   │       └── workshop_1_ED.ipynb
 │   ├── explanations/
 │   │   └── teacher/
 │   │       └── colab/
-│   │           ├── BST_Jue_Vie.ipynb     # BST - Profesor Jotarlo
-│   │           ├── Graph.ipynb           # Grafos - Completo
-│   │           └── Graph_Mar_Jue.ipynb   # Grafos - Básico
+│   │           ├── BST_Jue_Vie.ipynb
+│   │           ├── Graph.ipynb
+│   │           └── Graph_Mar_Jue.ipynb
 │   └── HOMEWORKS/
 │       └── BTS/
-│           └── BTS_search_and_remove.ipynb  # Tarea BST
-├── website/                              # Este sitio web (React)
-├── LICENSE                               # GNU GPL v3
-└── README.md                             # Documentación`}
+│           └── BTS_search_and_remove.ipynb
+├── LICENSE
+└── README.md
+
+web branch:
+└── website/                (Este sitio web - React)`}
           </pre>
         </div>
 
-        {/* Topics Covered */}
         <div className="content-card glass-card">
-          <h2>✅ Temas Cubiertos</h2>
-          <ul>
+          <h2>{Icons.check} {t('about.topicsCovered')}</h2>
+          <ul className="topics-list">
             <li><strong>Recursividad:</strong>
               <ul>
                 <li>Recursividad de Pila (LIFO)</li>
@@ -138,13 +138,12 @@ function About() {
           </ul>
         </div>
 
-        {/* CTA */}
         <div className="content-card glass-card" style={{ textAlign: 'center' }}>
-          <h2>🚀 ¡Practica Ahora!</h2>
-          <p>Explora todos los códigos y algoritmos implementados en el playground interactivo.</p>
+          <h2>{Icons.rocket} {t('about.practiceNow')}</h2>
+          <p>{t('about.practiceDesc')}</p>
           <div style={{ marginTop: '1.5rem' }}>
             <Link to="/playground" className="btn btn-primary">
-              💻 Ir al Playground
+              {Icons.terminal} {t('about.goToPlayground')}
             </Link>
           </div>
         </div>

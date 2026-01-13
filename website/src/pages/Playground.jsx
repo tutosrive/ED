@@ -1,22 +1,19 @@
 import { useState, useMemo } from 'react'
+import { useTranslation } from 'react-i18next'
 import Editor from '@monaco-editor/react'
 import { codeFiles, categories } from '../data/codeFiles'
+import Icons from '../components/Icons'
 import './Playground.css'
 
 function Playground() {
+  const { t } = useTranslation()
   const [selectedFile, setSelectedFile] = useState('binary_search')
   const [code, setCode] = useState(codeFiles['binary_search'].code)
-  const [output, setOutput] = useState(`Bienvenido al Playground de Estructuras de Datos
+  const [output, setOutput] = useState(`${t('playground.welcome')}
 
-Para ejecutar el código:
-  1. Selecciona un archivo del panel izquierdo
-  2. Edita el código si lo deseas
-  3. Copia el código y pégalo en:
-     • Google Colab
-     • Online Python
-     • Tu entorno local de Python
+${t('playground.instructions')}
 
-¡Explora y aprende!`)
+${t('playground.explore')}`)
   const [openFolders, setOpenFolders] = useState(['workshop'])
   const [copied, setCopied] = useState(false)
 
@@ -61,32 +58,39 @@ Para ejecutar el código:
     const timestamp = new Date().toLocaleTimeString()
     setOutput(`[${timestamp}] Ejecutando código...
 
-[Info] Este playground es solo para visualización y edición del código.
+[Info] Este playground es para visualización y edición del código.
 [Info] Para ejecutar el código, copia el contenido y ejecútalo en:
-  • Google Colab (https://colab.research.google.com)
-  • Online Python (https://www.online-python.com)
+  • Google Colab
   • Tu entorno local de Python
 
 [✓] Código listo para copiar`)
   }
 
   const handleClearOutput = () => {
-    setOutput('Output cleared. Press "Ejecutar" to run code.')
+    setOutput('Output cleared.')
+  }
+
+  const getCategoryIcon = (catId) => {
+    switch (catId) {
+      case 'workshop': return Icons.workshop
+      case 'teacher': return Icons.teacher
+      case 'homework': return Icons.homework
+      default: return Icons.folder
+    }
   }
 
   return (
     <>
       <section className="page-header">
-        <h1>💻 Playground</h1>
-        <p>Explora y edita todos los códigos del curso de Estructuras de Datos</p>
+        <h1>{Icons.code} {t('playground.title')}</h1>
+        <p>{t('playground.subtitle')}</p>
       </section>
 
       <section className="playground-container">
         <div className="playground-layout">
-          {/* Sidebar */}
           <aside className="sidebar">
             <div className="sidebar-card glass-card">
-              <h3 className="sidebar-title">📁 Archivos</h3>
+              <h3 className="sidebar-title">{Icons.folder} {t('playground.files')}</h3>
               <ul className="file-tree">
                 {Object.entries(categories).map(([catId, category]) => (
                   <li key={catId}>
@@ -94,9 +98,9 @@ Para ejecutar el código:
                       className={`folder-toggle ${openFolders.includes(catId) ? 'open' : ''}`}
                       onClick={() => toggleFolder(catId)}
                     >
-                      <span className="chevron">▶</span>
-                      <span className="folder-icon">{category.icon}</span>
-                      {category.name}
+                      <span className="chevron">{Icons.chevronDown}</span>
+                      <span className="folder-icon">{getCategoryIcon(catId)}</span>
+                      {t(`categories.${catId}`)}
                     </button>
                     <ul className={`folder-contents ${openFolders.includes(catId) ? 'open' : ''}`}>
                       {groupedFiles[catId]?.map(file => (
@@ -105,7 +109,7 @@ Para ejecutar el código:
                             className={`file-btn ${selectedFile === file.id ? 'active' : ''}`}
                             onClick={() => handleFileSelect(file.id)}
                           >
-                            🐍 {file.filename}
+                            <span className="python-icon">{Icons.python}</span> {file.filename}
                           </button>
                         </li>
                       ))}
@@ -114,51 +118,31 @@ Para ejecutar el código:
                 ))}
               </ul>
             </div>
-
-            {/* Quick Links */}
-            <div className="sidebar-card glass-card">
-              <h3 className="sidebar-title">🔗 Ejecutar Online</h3>
-              <div className="quick-links">
-                <a href="https://colab.research.google.com" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
-                  🧪 Google Colab
-                </a>
-                <a href="https://www.online-python.com" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
-                  🐍 Online Python
-                </a>
-                <a href="https://replit.com" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
-                  💻 Replit
-                </a>
-              </div>
-            </div>
           </aside>
 
-          {/* Editor */}
           <div className="editor-container">
-            {/* Code Description */}
             <div className="code-description">
-              <h3>ℹ️ {currentFile.name}</h3>
+              <h3>{Icons.about} {currentFile.name}</h3>
               <p>{currentFile.description}</p>
-              <p><strong>Autor:</strong> {currentFile.author}</p>
+              <p><strong>{t('playground.author')}:</strong> {currentFile.author}</p>
             </div>
 
-            {/* Editor Header */}
             <div className="editor-header">
               <div className="editor-tabs">
                 <div className="editor-tab">
-                  🐍 <span>{currentFile.filename}</span>
+                  <span className="python-icon">{Icons.python}</span> <span>{currentFile.filename}</span>
                 </div>
               </div>
               <div className="editor-actions">
                 <button className="editor-btn" onClick={handleCopy}>
-                  {copied ? '✓ Copiado!' : '📋 Copiar'}
+                  {copied ? <>{Icons.check} {t('playground.copied')}</> : <>{Icons.copy} {t('playground.copy')}</>}
                 </button>
                 <button className="editor-btn run-btn" onClick={handleRun}>
-                  ▶️ Ejecutar
+                  {Icons.play} {t('playground.run')}
                 </button>
               </div>
             </div>
 
-            {/* Monaco Editor */}
             <div className="editor-wrapper">
               <Editor
                 height="500px"
@@ -182,14 +166,13 @@ Para ejecutar el código:
               />
             </div>
 
-            {/* Output Section */}
             <div className="output-section">
               <div className="output-header">
                 <div className="output-title">
-                  💻 Output
+                  {Icons.terminal} {t('playground.output')}
                 </div>
                 <button className="editor-btn" onClick={handleClearOutput}>
-                  🗑️ Limpiar
+                  {Icons.trash} {t('playground.clear')}
                 </button>
               </div>
               <pre className="output-content">{output}</pre>

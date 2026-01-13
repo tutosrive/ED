@@ -1,16 +1,8 @@
-/* ========================================
-   Layout Component Styles
-   ======================================== */
-
-/* Main Content */
 .main-content {
   padding-top: var(--nav-height);
   min-height: calc(100vh - 200px);
 }
 
-/* ========================================
-   Glass Navigation
-   ======================================== */
 .glass-nav {
   position: fixed;
   top: 0;
@@ -87,6 +79,19 @@
 
 .nav-icon {
   font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .mobile-menu-btn {
@@ -94,14 +99,15 @@
   background: none;
   border: none;
   color: var(--text-primary);
-  font-size: 1.5rem;
   cursor: pointer;
   padding: 0.5rem;
 }
 
-/* ========================================
-   Mobile Menu
-   ======================================== */
+.mobile-menu-btn svg {
+  width: 24px;
+  height: 24px;
+}
+
 .mobile-menu {
   display: none;
   position: fixed;
@@ -145,9 +151,6 @@
   background: rgba(0, 240, 255, 0.1);
 }
 
-/* ========================================
-   Footer
-   ======================================== */
 .glass-footer {
   background: var(--glass-bg);
   backdrop-filter: blur(20px);
@@ -199,9 +202,6 @@
   color: var(--text-muted);
 }
 
-/* ========================================
-   Floating Particles
-   ======================================== */
 .floating-particles {
   position: absolute;
   width: 100%;
@@ -210,9 +210,6 @@
   pointer-events: none;
 }
 
-/* ========================================
-   Responsive Design
-   ======================================== */
 @media (max-width: 768px) {
   .nav-links {
     display: none;

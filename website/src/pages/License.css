@@ -1,5 +1,3 @@
-/* License Page Styles */
-
 .license-text {
   background: rgba(0, 0, 0, 0.3);
   padding: 1.5rem;
@@ -12,6 +10,58 @@
   max-height: 400px;
   overflow-y: auto;
   margin-top: 1rem;
+}
+
+.license-loading,
+.license-error {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-secondary);
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.license-error {
+  color: var(--danger);
+}
+
+.license-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.license-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+}
+
+.license-list strong {
+  color: var(--text-primary);
+}
+
+.icon-check {
+  display: flex;
+  color: var(--success);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.icon-warning {
+  display: flex;
+  color: var(--warning);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.icon-check svg,
+.icon-warning svg {
+  width: 18px;
+  height: 18px;
 }
 
 .permissions-grid {
@@ -43,5 +93,17 @@
 }
 
 .permission-item .icon {
-  font-size: 1.1rem;
+  display: flex;
+}
+
+.permission-item .icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.credits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }

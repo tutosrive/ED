@@ -1,45 +1,44 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
+import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism'
+import Icons from '../components/Icons'
 import './WhatIs.css'
 
 function WhatIs() {
+  const { t } = useTranslation()
+  
   return (
     <>
       <section className="page-header">
-        <h1>❓ ¿Qué son las Estructuras de Datos?</h1>
-        <p>Una introducción a los conceptos fundamentales de la informática</p>
+        <h1>{Icons.help} {t('whatIs.title')}</h1>
+        <p>{t('whatIs.subtitle')}</p>
       </section>
 
       <section className="content-section">
-        {/* Definition */}
         <div className="content-card glass-card">
-          <h2>🗄️ Definición</h2>
+          <h2>{Icons.folder} {t('whatIs.definition')}</h2>
           <p>
-            Las <strong>Estructuras de Datos</strong> son formas organizadas de almacenar y gestionar datos 
-            en un computador para que puedan ser utilizados de manera eficiente. Son fundamentales en la 
-            ciencia de la computación y la programación, ya que la elección correcta de una estructura de 
-            datos puede hacer la diferencia entre un programa lento y uno rápido.
+            {t('whatIs.definitionDesc1')}
           </p>
           <p>
-            Una estructura de datos no solo almacena información, sino que también define las operaciones 
-            que se pueden realizar sobre esos datos y la complejidad temporal de cada operación.
+            {t('whatIs.definitionDesc2')}
           </p>
         </div>
 
-        {/* Why Important */}
         <div className="content-card glass-card">
-          <h2>💡 ¿Por qué son importantes?</h2>
-          <ul>
-            <li><strong>Eficiencia:</strong> Permiten realizar operaciones de búsqueda, inserción y eliminación de manera óptima.</li>
-            <li><strong>Organización:</strong> Facilitan la organización lógica de grandes cantidades de datos.</li>
-            <li><strong>Reutilización:</strong> Proporcionan soluciones probadas para problemas comunes.</li>
-            <li><strong>Abstracción:</strong> Permiten pensar en los datos de manera conceptual sin preocuparse por los detalles de implementación.</li>
-            <li><strong>Entrevistas:</strong> Son un tema crucial en las entrevistas técnicas de empresas de tecnología.</li>
+          <h2>{Icons.star} {t('whatIs.whyImportant')}</h2>
+          <ul className="importance-list">
+            <li><strong>{t('whatIs.efficiency')}:</strong> {t('whatIs.efficiencyDesc')}</li>
+            <li><strong>{t('whatIs.organization')}:</strong> {t('whatIs.organizationDesc')}</li>
+            <li><strong>{t('whatIs.reuse')}:</strong> {t('whatIs.reuseDesc')}</li>
+            <li><strong>{t('whatIs.abstraction')}:</strong> {t('whatIs.abstractionDesc')}</li>
+            <li><strong>{t('whatIs.interviews')}:</strong> {t('whatIs.interviewsDesc')}</li>
           </ul>
         </div>
 
-        {/* Types */}
         <div className="content-card glass-card">
-          <h2>🌳 Tipos de Estructuras de Datos</h2>
+          <h2>{Icons.tree} Tipos de Estructuras de Datos</h2>
           
           <h3 className="primary-heading">Estructuras Lineales</h3>
           <ul>
@@ -58,9 +57,8 @@ function WhatIs() {
           </ul>
         </div>
 
-        {/* Recursion */}
         <div className="content-card glass-card">
-          <h2>🔄 Recursividad</h2>
+          <h2>{Icons.recursion} Recursividad</h2>
           <p>
             La <strong>recursividad</strong> es una técnica de programación donde una función se llama a sí misma 
             para resolver un problema dividiéndolo en subproblemas más pequeños del mismo tipo.
@@ -71,29 +69,32 @@ function WhatIs() {
             En la recursividad de pila, las llamadas recursivas se acumulan en el stack hasta que se alcanza 
             el caso base. Luego, se resuelven en orden inverso (el último en entrar es el primero en salir).
           </p>
-          <pre className="code-block">
+          <div className="code-block-wrapper">
+            <SyntaxHighlighter language="python" style={vscDarkPlus} customStyle={{ borderRadius: '12px', margin: 0 }}>
 {`def factorial(n):
     if n <= 1:
         return 1
     return n * factorial(n - 1)  # Se acumula en el stack`}
-          </pre>
+            </SyntaxHighlighter>
+          </div>
 
           <h3 className="secondary-heading">Recursividad de Cola (FIFO)</h3>
           <p>
             En la recursividad de cola, el resultado se va calculando y pasando como parámetro, 
             evitando la acumulación de llamadas en el stack. Es más eficiente en memoria.
           </p>
-          <pre className="code-block">
+          <div className="code-block-wrapper">
+            <SyntaxHighlighter language="python" style={vscDarkPlus} customStyle={{ borderRadius: '12px', margin: 0 }}>
 {`def factorial_tail(n, accumulator=1):
     if n <= 1:
         return accumulator
     return factorial_tail(n - 1, n * accumulator)  # Tail call`}
-          </pre>
+            </SyntaxHighlighter>
+          </div>
         </div>
 
-        {/* BST */}
         <div className="content-card glass-card">
-          <h2>🌲 Árbol Binario de Búsqueda (BST)</h2>
+          <h2>{Icons.tree} Árbol Binario de Búsqueda (BST)</h2>
           <p>
             Un <strong>Árbol Binario de Búsqueda (Binary Search Tree - BST)</strong> es una estructura de datos 
             de árbol donde cada nodo tiene como máximo dos hijos, y cumple la siguiente propiedad:
@@ -118,9 +119,8 @@ function WhatIs() {
           </ul>
         </div>
 
-        {/* Graphs */}
         <div className="content-card glass-card">
-          <h2>📊 Grafos</h2>
+          <h2>{Icons.graph} Grafos</h2>
           <p>
             Un <strong>grafo</strong> es una estructura de datos que consiste en un conjunto de 
             <strong> vértices (nodos)</strong> y <strong>aristas (conexiones)</strong> entre ellos.
@@ -147,9 +147,8 @@ function WhatIs() {
           </ul>
         </div>
 
-        {/* Complexity */}
         <div className="content-card glass-card">
-          <h2>📈 Complejidad Algorítmica</h2>
+          <h2>{Icons.graph} Complejidad Algorítmica</h2>
           <p>
             La <strong>complejidad algorítmica</strong> mide los recursos (tiempo y espacio) que requiere un 
             algoritmo en función del tamaño de la entrada.
@@ -166,13 +165,12 @@ function WhatIs() {
           </ul>
         </div>
 
-        {/* CTA */}
         <div className="content-card glass-card" style={{ textAlign: 'center' }}>
-          <h2>🚀 ¡Practica Ahora!</h2>
-          <p>Explora todos los códigos y algoritmos implementados en el playground interactivo.</p>
+          <h2>{Icons.rocket} {t('about.practiceNow')}</h2>
+          <p>{t('about.practiceDesc')}</p>
           <div style={{ marginTop: '1.5rem' }}>
             <Link to="/playground" className="btn btn-primary">
-              💻 Ir al Playground
+              {Icons.terminal} {t('about.goToPlayground')}
             </Link>
           </div>
         </div>

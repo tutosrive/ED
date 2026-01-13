@@ -1,139 +1,118 @@
+import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
+import axios from 'axios'
+import Icons from '../components/Icons'
+import GitHubUser from '../components/GitHubUser'
 import './License.css'
 
 function License() {
-  const licenseText = `GNU GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007
+  const { t } = useTranslation()
+  const [licenseText, setLicenseText] = useState('')
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(false)
 
- Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
+  useEffect(() => {
+    const fetchLicense = async () => {
+      try {
+        const response = await axios.get(
+          'https://api.github.com/repos/tutosrive/ED/license',
+          { headers: { Accept: 'application/vnd.github.v3.raw' } }
+        )
+        setLicenseText(response.data)
+      } catch {
+        setError(true)
+        setLicenseText('Error loading license. Please visit the GitHub repository.')
+      } finally {
+        setLoading(false)
+      }
+    }
 
-                            Preamble
-
-  The GNU General Public License is a free, copyleft license for
-software and other kinds of works.
-
-  The licenses for most software and other practical works are designed
-to take away your freedom to share and change the works.  By contrast,
-the GNU General Public License is intended to guarantee your freedom to
-share and change all versions of a program--to make sure it remains free
-software for all its users.  We, the Free Software Foundation, use the
-GNU General Public License for most of our software; it applies also to
-any other work released this way by its authors.  You can apply it to
-your programs, too.
-
-  When we speak of free software, we are referring to freedom, not
-price.  Our General Public Licenses are designed to make sure that you
-have the freedom to distribute copies of free software (and charge for
-them if you wish), that you receive source code or can get it if you
-want it, that you can change the software or use pieces of it in new
-free programs, and that you know you can do these things.
-
-  To protect your rights, we need to prevent others from denying you
-these rights or asking you to surrender the rights.  Therefore, you have
-certain responsibilities if you distribute copies of the software, or if
-you modify it: responsibilities to respect the freedom of others.
-
-  For example, if you distribute copies of such a program, whether
-gratis or for a fee, you must pass on to the recipients the same
-freedoms that you received.  You must make sure that they, too, receive
-or can get the source code.  And you must show them these terms so they
-know their rights.
-
-  Developers that use the GNU GPL protect your rights with two steps:
-(1) assert copyright on the software, and (2) offer you this License
-giving you legal permission to copy, distribute and/or modify it.
-
-  For the developers' and authors' protection, the GPL clearly explains
-that there is no warranty for this free software.  For both users' and
-authors' sake, the GPL requires that modified versions be marked as
-changed, so that their problems will not be attributed erroneously to
-authors of previous versions.`
+    fetchLicense()
+  }, [])
 
   return (
     <>
       <section className="page-header">
-        <h1>📄 Licencia</h1>
-        <p>Este proyecto está licenciado bajo GNU General Public License v3</p>
+        <h1>{Icons.file} {t('license.title')}</h1>
+        <p>{t('license.subtitle')}</p>
       </section>
 
       <section className="content-section">
-        {/* License Summary */}
         <div className="content-card glass-card">
-          <h2>📋 Resumen de la Licencia</h2>
+          <h2>{Icons.file} {t('license.summary')}</h2>
           <p>
-            Este proyecto está bajo la licencia <strong>GNU General Public License v3 (GPL-3.0)</strong>, 
-            una licencia de software libre copyleft que garantiza las siguientes libertades:
+            {t('license.summaryDesc')}
           </p>
-          <ul>
-            <li>✅ <strong>Libertad de uso:</strong> Puedes usar el software para cualquier propósito.</li>
-            <li>✅ <strong>Libertad de estudio:</strong> Puedes estudiar cómo funciona el programa y adaptarlo a tus necesidades.</li>
-            <li>✅ <strong>Libertad de distribución:</strong> Puedes redistribuir copias del software.</li>
-            <li>✅ <strong>Libertad de mejora:</strong> Puedes mejorar el programa y publicar tus mejoras.</li>
+          <ul className="license-list">
+            <li><span className="icon-check">{Icons.check}</span> <strong>{t('license.freedomUse')}:</strong> {t('license.freedomUseDesc')}</li>
+            <li><span className="icon-check">{Icons.check}</span> <strong>{t('license.freedomStudy')}:</strong> {t('license.freedomStudyDesc')}</li>
+            <li><span className="icon-check">{Icons.check}</span> <strong>{t('license.freedomDistribute')}:</strong> {t('license.freedomDistributeDesc')}</li>
+            <li><span className="icon-check">{Icons.check}</span> <strong>{t('license.freedomImprove')}:</strong> {t('license.freedomImproveDesc')}</li>
           </ul>
         </div>
 
-        {/* Conditions */}
         <div className="content-card glass-card">
-          <h2>⚠️ Condiciones</h2>
-          <ul>
-            <li>📝 <strong>Divulgación del código fuente:</strong> Si distribuyes el software, debes hacerlo con el código fuente o proporcionar acceso a él.</li>
-            <li>📝 <strong>Misma licencia:</strong> Las obras derivadas deben distribuirse bajo la misma licencia GPL-3.0.</li>
-            <li>📝 <strong>Avisos de copyright:</strong> Debes mantener los avisos de copyright y licencia originales.</li>
-            <li>📝 <strong>Documentar cambios:</strong> Debes documentar los cambios significativos realizados al software.</li>
+          <h2>{Icons.warning} {t('license.conditions')}</h2>
+          <ul className="license-list">
+            <li><span className="icon-warning">{Icons.file}</span> <strong>{t('license.sourceDisclosure')}:</strong> {t('license.sourceDisclosureDesc')}</li>
+            <li><span className="icon-warning">{Icons.file}</span> <strong>{t('license.sameLicense')}:</strong> {t('license.sameLicenseDesc')}</li>
+            <li><span className="icon-warning">{Icons.file}</span> <strong>{t('license.copyrightNotice')}:</strong> {t('license.copyrightNoticeDesc')}</li>
+            <li><span className="icon-warning">{Icons.file}</span> <strong>{t('license.documentChanges')}:</strong> {t('license.documentChangesDesc')}</li>
           </ul>
         </div>
 
-        {/* Permissions */}
         <div className="content-card glass-card">
-          <h2>✅ Permisos</h2>
+          <h2>{Icons.check} {t('license.permissions')}</h2>
           <div className="permissions-grid">
             <div className="permission-item allowed">
-              <span className="icon">✅</span>
-              <span>Uso comercial</span>
+              <span className="icon">{Icons.check}</span>
+              <span>{t('license.commercialUse')}</span>
             </div>
             <div className="permission-item allowed">
-              <span className="icon">✅</span>
-              <span>Modificación</span>
+              <span className="icon">{Icons.check}</span>
+              <span>{t('license.modification')}</span>
             </div>
             <div className="permission-item allowed">
-              <span className="icon">✅</span>
-              <span>Distribución</span>
+              <span className="icon">{Icons.check}</span>
+              <span>{t('license.distribution')}</span>
             </div>
             <div className="permission-item allowed">
-              <span className="icon">✅</span>
-              <span>Uso de patentes</span>
+              <span className="icon">{Icons.check}</span>
+              <span>{t('license.patentUse')}</span>
             </div>
             <div className="permission-item allowed">
-              <span className="icon">✅</span>
-              <span>Uso privado</span>
+              <span className="icon">{Icons.check}</span>
+              <span>{t('license.privateUse')}</span>
             </div>
           </div>
         </div>
 
-        {/* Limitations */}
         <div className="content-card glass-card">
-          <h2>❌ Limitaciones</h2>
+          <h2>{Icons.x} {t('license.limitations')}</h2>
           <div className="permissions-grid">
             <div className="permission-item denied">
-              <span className="icon">❌</span>
-              <span>Sin garantía</span>
+              <span className="icon">{Icons.x}</span>
+              <span>{t('license.noWarranty')}</span>
             </div>
             <div className="permission-item denied">
-              <span className="icon">❌</span>
-              <span>Sin responsabilidad</span>
+              <span className="icon">{Icons.x}</span>
+              <span>{t('license.noLiability')}</span>
             </div>
           </div>
         </div>
 
-        {/* Full License */}
         <div className="content-card glass-card">
-          <h2>📜 Texto Completo de la Licencia</h2>
+          <h2>{Icons.file} {t('license.fullText')}</h2>
           <p>
-            A continuación se muestra un extracto del texto de la licencia. Para ver el texto completo, 
-            visita el <a href="https://github.com/tutosrive/ED/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">archivo LICENSE en GitHub</a>.
+            {t('license.fullTextDesc')}
           </p>
-          <pre className="license-text">{licenseText}</pre>
+          {loading ? (
+            <div className="license-loading">{t('license.loading')}</div>
+          ) : error ? (
+            <div className="license-error">{t('license.error')}</div>
+          ) : (
+            <pre className="license-text">{licenseText}</pre>
+          )}
           <div style={{ marginTop: '1.5rem', textAlign: 'center' }}>
             <a 
               href="https://www.gnu.org/licenses/gpl-3.0.html" 
@@ -141,32 +120,27 @@ authors of previous versions.`
               rel="noopener noreferrer" 
               className="btn btn-primary"
             >
-              📖 Ver Licencia Completa en GNU.org
+              {Icons.external} {t('license.viewOnGnu')}
             </a>
           </div>
         </div>
 
-        {/* Credits */}
         <div className="content-card glass-card">
-          <h2>👥 Créditos y Atribución</h2>
+          <h2>{Icons.github} {t('license.creditsAttribution')}</h2>
           <p>
-            Este proyecto fue desarrollado como parte del curso de <strong>Estructuras de Datos</strong> 
-            en la <strong>Universidad de Caldas</strong>.
+            {t('license.creditsDesc')}
           </p>
           <div className="credits-grid">
-            <div className="credit-item">
-              <h3>👨‍🎓 Santiago Rivera Marin</h3>
-              <p>Estudiante - 4to Semestre</p>
-              <p>Ingeniería de Sistemas y Computación</p>
-              <a href="https://github.com/tutosrive" target="_blank" rel="noopener noreferrer">
-                🐙 @tutosrive
-              </a>
-            </div>
-            <div className="credit-item">
-              <h3>👨‍🏫 Profesor Jotarlo</h3>
-              <p>Docente del Curso</p>
-              <p>Universidad de Caldas</p>
-            </div>
+            <GitHubUser 
+              username="tutosrive" 
+              role={t('about.student')}
+              roleDescription="Ingeniería de Sistemas y Computación"
+            />
+            <GitHubUser 
+              username="jotarlo" 
+              role={t('about.professor')}
+              roleDescription="Universidad de Caldas"
+            />
           </div>
         </div>
       </section>

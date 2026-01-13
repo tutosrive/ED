@@ -1,27 +1,29 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import Icons from './Icons'
+import LanguageSwitcher from './LanguageSwitcher'
 import './Layout.css'
 
 function Layout({ children }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const location = useLocation()
+  const { t } = useTranslation()
 
-  // Close mobile menu on route change
   useEffect(() => {
     setMobileMenuOpen(false)
   }, [location])
 
   const navLinks = [
-    { path: '/', label: 'Home', icon: '🏠' },
-    { path: '/about', label: 'About', icon: 'ℹ️' },
-    { path: '/what-is', label: '¿Qué es?', icon: '❓' },
-    { path: '/playground', label: 'Playground', icon: '💻' },
-    { path: '/license', label: 'Licencia', icon: '📄' },
+    { path: '/', label: t('nav.home'), icon: Icons.home },
+    { path: '/about', label: t('nav.about'), icon: Icons.about },
+    { path: '/what-is', label: t('nav.whatIs'), icon: Icons.help },
+    { path: '/playground', label: t('nav.playground'), icon: Icons.code },
+    { path: '/license', label: t('nav.license'), icon: Icons.file },
   ]
 
   return (
     <>
-      {/* Animated Background */}
       <div className="animated-bg">
         <div className="grid-lines"></div>
         <Particles />
@@ -30,7 +32,6 @@ function Layout({ children }) {
         <div className="glow-orb orb-3"></div>
       </div>
 
-      {/* Navigation */}
       <nav className="glass-nav">
         <div className="nav-container">
           <Link to="/" className="logo">
@@ -49,17 +50,19 @@ function Layout({ children }) {
               </li>
             ))}
           </ul>
-          <button
-            className="mobile-menu-btn"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            {mobileMenuOpen ? '✕' : '☰'}
-          </button>
+          <div className="nav-actions">
+            <LanguageSwitcher />
+            <button
+              className="mobile-menu-btn"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? Icons.close : Icons.menu}
+            </button>
+          </div>
         </div>
       </nav>
 
-      {/* Mobile Menu */}
       <div className={`mobile-menu ${mobileMenuOpen ? 'active' : ''}`}>
         <ul>
           {navLinks.map((link) => (
@@ -75,27 +78,25 @@ function Layout({ children }) {
         </ul>
       </div>
 
-      {/* Main Content */}
       <main className="main-content">
         {children}
       </main>
 
-      {/* Footer */}
       <footer className="glass-footer">
         <div className="footer-content">
           <div className="footer-section">
-            <h4>Créditos</h4>
-            <p><strong>Santiago Rivera Marin</strong><br />Estudiante - 4to Semestre</p>
-            <p><strong>Profesor Jotarlo</strong><br />Docente del curso</p>
+            <h4>{t('footer.credits')}</h4>
+            <p><strong>Santiago Rivera Marin</strong><br />{t('footer.student')}</p>
+            <p><strong>Jefferson Arango López</strong><br />{t('footer.professor')}</p>
           </div>
           <div className="footer-section">
-            <h4>Universidad</h4>
+            <h4>{t('footer.university')}</h4>
             <p>Universidad de Caldas<br />Ingeniería de Sistemas y Computación<br />Manizales, Caldas - Colombia</p>
           </div>
           <div className="footer-section">
-            <h4>Repositorio</h4>
+            <h4>{t('footer.repository')}</h4>
             <a href="https://github.com/tutosrive/ED" target="_blank" rel="noopener noreferrer" className="github-link">
-              🐙 tutosrive/ED
+              {Icons.github} tutosrive/ED
             </a>
           </div>
         </div>
@@ -107,7 +108,6 @@ function Layout({ children }) {
   )
 }
 
-// Particles Component
 function Particles() {
   const [particles, setParticles] = useState([])
 
