@@ -326,9 +326,9 @@ function Playground() {
                     {currentContent || '# (archivo vacío)'}
                   </SyntaxHighlighter>*/}
                   <div id="playground">
-                    <div class="code">
+                    <pre class="code">
                       {currentContent || '# (archivo vacío)'}
-                    </div>
+                    </pre>
                   </div>
                   <codapi-snippet sandbox={language} editor="basic" selector="#playground .code"></codapi-snippet>
                 </div>
