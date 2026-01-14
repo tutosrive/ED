@@ -329,7 +329,7 @@ function Playground() {
                     {/*<pre className={"code pre-codapi"}>
                       {currentContent || '# (archivo vacío)'}
                     </pre>*/}
-                    <SyntaxHighlighter className={"code"} language={language} style={vscDarkPlus} showLineNumbers wrapLongLines>
+                    <SyntaxHighlighter className={"code"} language={language} style={vscDarkPlus} wrapLongLines>
                       {currentContent || '# (archivo vacío)'}
                     </SyntaxHighlighter>
                   </div>
