@@ -1,10 +1,12 @@
 .playground-container {
   padding: 2rem;
-  max-width: 1600px;
+  /*max-width: 1600px;*/
+  max-width: 95vw;
   margin: 0 auto;
 }
 
 .playground-layout {
+  width: 90%;
   display: grid;
   grid-template-columns: 300px 1fr;
   gap: 2rem;
