@@ -322,9 +322,15 @@ function Playground() {
                     </div>
                   </div>
 
-                  <SyntaxHighlighter language={language} style={vscDarkPlus} showLineNumbers wrapLongLines>
+                  {/*<SyntaxHighlighter language={language} style={vscDarkPlus} showLineNumbers wrapLongLines>
                     {currentContent || '# (archivo vacío)'}
-                  </SyntaxHighlighter>
+                  </SyntaxHighlighter>*/}
+                  <div id="playground">
+                    <div class="code">
+                      {currentContent || '# (archivo vacío)'}
+                    </div>
+                  </div>
+                  <codapi-snippet sandbox={language} editor="basic" selector="#playground .code"></codapi-snippet>
                 </div>
               )}
             </div>
