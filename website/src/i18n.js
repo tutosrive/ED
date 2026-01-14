@@ -10,6 +10,7 @@ const resources = {
         about: 'Acerca de',
         whatIs: '¿Qué es?',
         playground: 'Playground',
+        videos: 'Videos',
         license: 'Licencia'
       },
       home: {
@@ -100,6 +101,27 @@ const resources = {
         refresh: 'Actualizar',
         explore: '¡Explora y aprende!'
       },
+      videos: {
+        title: 'Videos de Estructuras de Datos',
+        subtitle: 'Playlist completa: conceptos y temas agrupados por secciones',
+        playlist: 'Playlist oficial',
+        playlistDesc: 'Lista de reproducción con contenido sobre recursividad, árboles, grafos y más.',
+        openOnYoutube: 'Abrir en YouTube',
+        sections: {
+          title: 'Secciones',
+          proyecto2: 'Proyecto 2 - Estructuras de Datos',
+          proyecto1: 'Proyecto 1 - Estructuras de Datos',
+          bst: 'BST',
+          avl: 'Árboles AVL',
+          grafos: 'Algoritmos de Grafos',
+          curso2021: 'Curso de Estructuras de Datos 2021',
+          otros: 'Vídeos Otros - Tests'
+        },
+        selectVideo: 'Selecciona un vídeo para reproducir',
+        loadingSections: 'Cargando secciones...',
+        noSections: 'No se encontraron secciones configuradas para esta playlist.',
+        howToAdd: 'Puedes agregar un archivo `src/videos/sections.json` en el repositorio `tutosrive/ED` para definir secciones.'
+      },
       license: {
         title: 'Licencia',
         subtitle: 'Este proyecto está licenciado bajo GNU General Public License v3',
@@ -184,6 +206,26 @@ const resources = {
         algorithms: 'Algorithms',
         python: 'Python',
         learning: 'Learning'
+      },      videos: {
+        title: 'Data Structures Videos',
+        subtitle: 'Complete playlist: concepts and topics grouped by sections',
+        playlist: 'Official playlist',
+        playlistDesc: 'A playlist covering recursion, trees, graphs and more.',
+        openOnYoutube: 'Open on YouTube',
+        sections: {
+          title: 'Sections',
+          proyecto2: 'Project 2 - Data Structures',
+          proyecto1: 'Project 1 - Data Structures',
+          bst: 'BST',
+          avl: 'AVL Trees',
+          grafos: 'Graph Algorithms',
+          curso2021: 'Data Structures Course 2021',
+          otros: 'Other Videos - Tests'
+        },
+        selectVideo: 'Select a video to play',
+        loadingSections: 'Loading sections...',
+        noSections: 'No sections configured for this playlist.',
+        howToAdd: 'You can add a `src/videos/sections.json` file in the `tutosrive/ED` repository to define sections.'
       },
       about: {
         title: 'About',
@@ -249,6 +291,17 @@ const resources = {
         loadingFile: 'Loading file...',
         refresh: 'Refresh',
         explore: 'Explore and learn!'
+      },
+      videos: {
+        title: 'Data Structures Videos',
+        subtitle: 'Complete playlist: concepts and topics grouped by sections',
+        playlist: 'Official playlist',
+        playlistDesc: 'A playlist covering recursion, trees, graphs and more.',
+        openOnYoutube: 'Open on YouTube',
+        sections: 'Sections',
+        loadingSections: 'Loading sections...',
+        noSections: 'No sections configured for this playlist.',
+        howToAdd: 'You can add a `src/videos/sections.json` file in the `tutosrive/ED` repository to define sections.'
       },
       license: {
         title: 'License',
@@ -335,6 +388,27 @@ const resources = {
         python: 'Python',
         learning: 'Aprendizado'
       },
+      videos: {
+        title: 'Vídeos de Estruturas de Dados',
+        subtitle: 'Playlist completa: conceitos e tópicos agrupados por seções',
+        playlist: 'Playlist oficial',
+        playlistDesc: 'Lista de reprodução com conteúdo sobre recursividade, árvores, grafos e mais.',
+        openOnYoutube: 'Abrir no YouTube',
+        sections: {
+          title: 'Seções',
+          proyecto2: 'Projeto 2 - Estruturas de Dados',
+          proyecto1: 'Projeto 1 - Estruturas de Dados',
+          bst: 'BST',
+          avl: 'Árvores AVL',
+          grafos: 'Algoritmos de Grafos',
+          curso2021: 'Curso de Estruturas de Dados 2021',
+          otros: 'Vídeos Outros - Testes'
+        },
+        selectVideo: 'Selecione um vídeo para reproduzir',
+        loadingSections: 'Carregando seções...',
+        noSections: 'Nenhuma seção configurada para esta playlist.',
+        howToAdd: 'Você pode adicionar um arquivo `src/videos/sections.json` no repositório `tutosrive/ED` para definir seções.'
+      },
       footer: {
         credits: 'Créditos',
         student: 'Estudante - 4º Semestre',
@@ -366,6 +440,27 @@ const resources = {
         explorePlayground: 'Explorer le Playground',
         viewDocs: 'Voir la Documentation',
         courseContent: 'Contenu du Cours'
+      },
+      videos: {
+        title: 'Vidéos - Structures de Données',
+        subtitle: 'Playlist complète : concepts et thèmes regroupés par sections',
+        playlist: 'Playlist officielle',
+        playlistDesc: 'Liste de lecture couvrant la récursivité, les arbres, les graphes et plus.',
+        openOnYoutube: 'Ouvrir sur YouTube',
+        sections: {
+          title: 'Sections',
+          proyecto2: 'Projet 2 - Structures de Données',
+          proyecto1: 'Projet 1 - Structures de Données',
+          bst: 'BST',
+          avl: 'Arbres AVL',
+          grafos: 'Algorithmes de Graphes',
+          curso2021: 'Cours de Structures de Données 2021',
+          otros: 'Autres Vidéos - Tests'
+        },
+        selectVideo: 'Sélectionnez une vidéo à lire',
+        loadingSections: 'Chargement des sections...',
+        noSections: 'Aucune section configurée pour cette playlist.',
+        howToAdd: 'Vous pouvez ajouter un fichier `src/videos/sections.json` dans le dépôt `tutosrive/ED` pour définir des sections.'
       },
       footer: {
         credits: 'Crédits',
@@ -399,6 +494,27 @@ const resources = {
         viewDocs: 'Dokumentation anzeigen',
         courseContent: 'Kursinhalt'
       },
+      videos: {
+        title: 'Videos - Datenstrukturen',
+        subtitle: 'Vollständige Playlist: Konzepte und Themen nach Abschnitten gruppiert',
+        playlist: 'Offizielle Playlist',
+        playlistDesc: 'Playlist mit Inhalten zu Rekursion, Bäumen, Graphen und mehr.',
+        openOnYoutube: 'Auf YouTube öffnen',
+        sections: {
+          title: 'Abschnitte',
+          proyecto2: 'Projekt 2 - Datenstrukturen',
+          proyecto1: 'Projekt 1 - Datenstrukturen',
+          bst: 'BST',
+          avl: 'AVL-Bäume',
+          grafos: 'Graphen-Algorithmen',
+          curso2021: 'Datenstrukturen Kurs 2021',
+          otros: 'Andere Videos - Tests'
+        },
+        selectVideo: 'Wählen Sie ein Video zum Abspielen aus',
+        loadingSections: 'Lade Abschnitte...',
+        noSections: 'Für diese Playlist sind keine Abschnitte konfiguriert.',
+        howToAdd: 'Du kannst eine Datei `src/videos/sections.json` im Repository `tutosrive/ED` hinzufügen, um Abschnitte zu definieren.'
+      },
       footer: {
         credits: 'Credits',
         student: 'Student - 4. Semester',
@@ -431,6 +547,27 @@ const resources = {
         viewDocs: 'Документация',
         courseContent: 'Содержание курса'
       },
+      videos: {
+        title: 'Видео по структурам данных',
+        subtitle: 'Полный плейлист: концепции и темы, сгруппированные по разделам',
+        playlist: 'Официальный плейлист',
+        playlistDesc: 'Плейлист о рекурсии, деревьях, графах и т.д.',
+        openOnYoutube: 'Открыть на YouTube',
+        sections: {
+          title: 'Разделы',
+          proyecto2: 'Проект 2 - Структуры данных',
+          proyecto1: 'Проект 1 - Структуры данных',
+          bst: 'BST',
+          avl: 'AVL-деревья',
+          grafos: 'Алгоритмы графов',
+          curso2021: 'Курс структур данных 2021',
+          otros: 'Другие видео - Тесты'
+        },
+        selectVideo: 'Выберите видео для воспроизведения',
+        loadingSections: 'Загрузка разделов...',
+        noSections: 'Для этого плейлиста разделы не настроены.',
+        howToAdd: 'Вы можете добавить файл `src/videos/sections.json` в репозиторий `tutosrive/ED`, чтобы определить разделы.'
+      },
       footer: {
         credits: 'Авторы',
         student: 'Студент - 4 семестр',
@@ -462,6 +599,27 @@ const resources = {
         explorePlayground: 'استكشف الملعب',
         viewDocs: 'عرض الوثائق',
         courseContent: 'محتوى الدورة'
+      },
+      videos: {
+        title: 'فيديوهات هياكل البيانات',
+        subtitle: 'قائمة تشغيل كاملة: المفاهيم والمواضيع مُقسمة بحسب الأقسام',
+        playlist: 'قائمة التشغيل الرسمية',
+        playlistDesc: 'قائمة تشغيل عن التكرار، الأشجار، الرسوم البيانية والمزيد.',
+        openOnYoutube: 'فتح على يوتيوب',
+        sections: {
+          title: 'الأقسام',
+          proyecto2: 'المشروع 2 - هياكل البيانات',
+          proyecto1: 'المشروع 1 - هياكل البيانات',
+          bst: 'BST',
+          avl: 'أشجار AVL',
+          grafos: 'خوارزميات الرسوم البيانية',
+          curso2021: 'دورة هياكل البيانات 2021',
+          otros: 'فيديوهات أخرى - اختبارات'
+        },
+        selectVideo: 'اختر فيديو للتشغيل',
+        loadingSections: 'جارٍ تحميل الأقسام...',
+        noSections: 'لم يتم تكوين أقسام لهذه القائمة.',
+        howToAdd: 'يمكنك إضافة ملف `src/videos/sections.json` في مستودع `tutosrive/ED` لتحديد الأقسام.'
       },
       footer: {
         credits: 'الاعتمادات',

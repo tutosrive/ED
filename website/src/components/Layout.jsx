@@ -19,6 +19,7 @@ function Layout({ children }) {
     { path: '/about', label: t('nav.about'), icon: Icons.about },
     { path: '/what-is', label: t('nav.whatIs'), icon: Icons.help },
     { path: '/playground', label: t('nav.playground'), icon: Icons.code },
+    { path: '/videos', label: t('nav.videos'), icon: Icons.play },
     { path: '/license', label: t('nav.license'), icon: Icons.file },
   ]
 

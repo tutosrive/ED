@@ -1,0 +1,3518 @@
+[
+  {
+    "title": "Testing ARCADE | python library | PED 2 | 1 | #ingesrm #university #python",
+    "videoId": "MdKP1o3LsrM",
+    "description": "Dive into the world of game development with \"Testing ARCADE,\" a hands-on exploration of the Arcade Python library tailored for university-level projects in PED 2.1. This guide demystifies building and testing interactive 2D games, from sprite animations to physics simulations, empowering aspiring developers to create engaging experiences efficiently. Whether you're debugging collision detection or optimizing performance, Arcade's intuitive API accelerates prototyping while fostering creativity. Ideal for students and hobbyists, it bridges theory and practice, paving the way for innovative applications in education and entertainment. Unlock your coding potential today—test, iterate, and launch!\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/MdKP1o3LsrM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/MdKP1o3LsrM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/MdKP1o3LsrM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/MdKP1o3LsrM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/MdKP1o3LsrM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:01:05Z"
+  },
+  {
+    "title": "REFACTORING Utils Files | PED 2 | 2 | #ingesrm #university #python",
+    "videoId": "aDhEXi5z5zo",
+    "description": "Refactoring Utils Module Files, to can read and write JSON files.\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/aDhEXi5z5zo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/aDhEXi5z5zo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/aDhEXi5z5zo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/aDhEXi5z5zo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/aDhEXi5z5zo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:01:05Z"
+  },
+  {
+    "title": "Writing POO Donkey | PED 2 | 3 | #ingesrm #university #python",
+    "videoId": "cWMcTW4P4vs",
+    "description": "Writing the Donkey class, first Version!\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/cWMcTW4P4vs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/cWMcTW4P4vs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/cWMcTW4P4vs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/cWMcTW4P4vs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/cWMcTW4P4vs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:01:05Z"
+  },
+  {
+    "title": "Testing ARCADE | python library | PED 2 | 4 | #ingesrm #university #python",
+    "videoId": "k7NFCcIIb9E",
+    "description": "Update the Donkey Class, add more properties...\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/k7NFCcIIb9E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/k7NFCcIIb9E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/k7NFCcIIb9E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/k7NFCcIIb9E/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/k7NFCcIIb9E/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T01:59:02Z"
+  },
+  {
+    "title": "UNITARY Tests and ENUM | python | PED 2 | 5 | #ingesrm #university #python",
+    "videoId": "dxxnK7weezA",
+    "description": "Update enum and add unitary tests donkey.\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/dxxnK7weezA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/dxxnK7weezA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/dxxnK7weezA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/dxxnK7weezA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/dxxnK7weezA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:08:48Z"
+  },
+  {
+    "title": "ARCADE UI | python | PED 2 | 6 | #ingesrm #university #python",
+    "videoId": "zdl4UWFk7Mc",
+    "description": "First view test with python ARCADE\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zdl4UWFk7Mc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zdl4UWFk7Mc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zdl4UWFk7Mc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/zdl4UWFk7Mc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/zdl4UWFk7Mc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T23:45:18Z"
+  },
+  {
+    "title": "Making a COMPONENT dialog | ARCADE Python | PED 2 | 7 | #ingesrm #university #python",
+    "videoId": "SNjAVqlNdBo",
+    "description": "First attempt at making a Dialogue Component...\n\n\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/SNjAVqlNdBo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/SNjAVqlNdBo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/SNjAVqlNdBo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/SNjAVqlNdBo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/SNjAVqlNdBo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-21T22:26:48Z"
+  },
+  {
+    "title": "Making a COMPONENT dialog PART 2 | ARCADE Python | PED 2 | 8 | #ingesrm #university #python",
+    "videoId": "enQKPwaosT8",
+    "description": "Second part attempting at making a Dialogue Component...\n\n\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/enQKPwaosT8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/enQKPwaosT8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/enQKPwaosT8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/enQKPwaosT8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/enQKPwaosT8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-21T22:35:20Z"
+  },
+  {
+    "title": "Top Level DIALOG | ARCADE Python | PED 2 | 9 | #ingesrm #university #python",
+    "videoId": "TIIJw4MFGSw",
+    "description": "In this video, y learn one way to can make a \"Menu/Dialog\" on the TOP Level of the UI in Arcade, yhe python library. It isn't the standart, just is my logic, my errors, and my way to learn...\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/TIIJw4MFGSw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/TIIJw4MFGSw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/TIIJw4MFGSw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/TIIJw4MFGSw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/TIIJw4MFGSw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-24T21:50:28Z"
+  },
+  {
+    "title": "FIX DIALOG errors | ARCADE Python | PED 2 | 10 | #ingesrm #university #python",
+    "videoId": "6-R-HPCJvKM",
+    "description": "In this video, I fix the issues from Dialog, the issue was remove the previous instance/Object from UI manager... Watch to more...\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/6-R-HPCJvKM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/6-R-HPCJvKM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/6-R-HPCJvKM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/6-R-HPCJvKM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/6-R-HPCJvKM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-25T15:50:47Z"
+  },
+  {
+    "title": "GridLayout in GameView | ARCADE Python | PED 2 | 11 | #ingesrm #university #python",
+    "videoId": "uDA7n-C1pNY",
+    "description": "In this video I suffered quite a bit trying to put the GridLayout to have a better view, although it is a test, just after the video I realized that the buttons look huge because the rows and columns are very few, then I put 45 columns and 35 rows and it looks good, as I wanted!\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/uDA7n-C1pNY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/uDA7n-C1pNY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/uDA7n-C1pNY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/uDA7n-C1pNY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/uDA7n-C1pNY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-27T02:05:35Z"
+  },
+  {
+    "title": "BAR Component | ARCADE Python | PED 2 | 12 | #ingesrm #university #python",
+    "videoId": "JTW16vOe-bQ",
+    "description": "in this video i make the \"Bar Component\", is a Class to allow inherit from it, and get a \"UI-GUI\" Bar with an image and label, is \"Reactive\"... \"REACTIVE\"\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JTW16vOe-bQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JTW16vOe-bQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JTW16vOe-bQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/JTW16vOe-bQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/JTW16vOe-bQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-28T00:08:45Z"
+  },
+  {
+    "title": "Transfer functions to the CONTROLLER | ARCADE Python | PED 2 | 13 | 1 | #ingesrm #university #python",
+    "videoId": "VSTBxGT1Auo",
+    "description": "In this video I transfer the functions/methods from the GameView and others to the controllers...\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VSTBxGT1Auo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VSTBxGT1Auo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VSTBxGT1Auo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/VSTBxGT1Auo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/VSTBxGT1Auo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-11-02T18:23:01Z"
+  },
+  {
+    "title": "Transfer functions to the CONTROLLER | ARCADE Python | PED 2 | 14 | 2 | #ingesrm #university #python",
+    "videoId": "0j4VOkTLLDg",
+    "description": "In this video I transfer the functions/methods from the GameView and others to the controllers...\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0j4VOkTLLDg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0j4VOkTLLDg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0j4VOkTLLDg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/0j4VOkTLLDg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/0j4VOkTLLDg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-11-02T18:55:17Z"
+  },
+  {
+    "title": "Updates in GameView COMPONENT | ARCADE Python | PED 2 | 15 | #ingesrm #university #python",
+    "videoId": "Ooh9xZUSo60",
+    "description": "Minor updates in GameView and something components\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Ooh9xZUSo60/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Ooh9xZUSo60/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Ooh9xZUSo60/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Ooh9xZUSo60/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Ooh9xZUSo60/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-11-02T22:56:24Z"
+  },
+  {
+    "title": "Testing GraphView - Colaborator | ARCADE Python | PED 2 | 16 | #ingesrm #university #python",
+    "videoId": "h82hU5bOjqI",
+    "description": "In this video I check and testing the Colaborator changes, she push the GraphView... All is Correct by now!\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/h82hU5bOjqI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/h82hU5bOjqI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/h82hU5bOjqI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/h82hU5bOjqI/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/h82hU5bOjqI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-11-03T18:38:45Z"
+  },
+  {
+    "title": "1 first project data strcuture | #ingesrm #university |",
+    "videoId": "-_YoD4kLUeI",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/-_YoD4kLUeI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/-_YoD4kLUeI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/-_YoD4kLUeI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/-_YoD4kLUeI/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/-_YoD4kLUeI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:40Z"
+  },
+  {
+    "title": "2 first project data strcuture | #ingesrm #university |",
+    "videoId": "7Qpe2CsDxFE",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7Qpe2CsDxFE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7Qpe2CsDxFE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7Qpe2CsDxFE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/7Qpe2CsDxFE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/7Qpe2CsDxFE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:40Z"
+  },
+  {
+    "title": "3 first project data strcuture | #ingesrm #university |",
+    "videoId": "Bo7luS6RT3w",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Bo7luS6RT3w/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Bo7luS6RT3w/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Bo7luS6RT3w/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Bo7luS6RT3w/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Bo7luS6RT3w/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "4 first project data strcuture | #ingesrm #university |",
+    "videoId": "F5FKRa1bJ4Y",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/F5FKRa1bJ4Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/F5FKRa1bJ4Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/F5FKRa1bJ4Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/F5FKRa1bJ4Y/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/F5FKRa1bJ4Y/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "5 first project data strcuture | #ingesrm #university |",
+    "videoId": "PsGD7UVlUYM",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/PsGD7UVlUYM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/PsGD7UVlUYM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/PsGD7UVlUYM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/PsGD7UVlUYM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/PsGD7UVlUYM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "6 first project data strcuture | #ingesrm #university |",
+    "videoId": "DYo1NkDe6dM",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/DYo1NkDe6dM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/DYo1NkDe6dM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/DYo1NkDe6dM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/DYo1NkDe6dM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/DYo1NkDe6dM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "7 first project data strcuture | #ingesrm #university |",
+    "videoId": "UOLjZ2MGYmw",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/UOLjZ2MGYmw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/UOLjZ2MGYmw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/UOLjZ2MGYmw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/UOLjZ2MGYmw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/UOLjZ2MGYmw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "8 first project data strcuture | #ingesrm #university |",
+    "videoId": "rgAzZgIhVMQ",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/rgAzZgIhVMQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/rgAzZgIhVMQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/rgAzZgIhVMQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/rgAzZgIhVMQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/rgAzZgIhVMQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "9 first project data strcuture | #ingesrm #university |",
+    "videoId": "vn7ekI6bQRg",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/vn7ekI6bQRg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/vn7ekI6bQRg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/vn7ekI6bQRg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/vn7ekI6bQRg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/vn7ekI6bQRg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "10 first project data strcuture | #ingesrm #university |",
+    "videoId": "q7gGuPPXo2s",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/q7gGuPPXo2s/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/q7gGuPPXo2s/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/q7gGuPPXo2s/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/q7gGuPPXo2s/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/q7gGuPPXo2s/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "11 first project data strcuture | #ingesrm #university |",
+    "videoId": "z1ge46azLLg",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/z1ge46azLLg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/z1ge46azLLg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/z1ge46azLLg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/z1ge46azLLg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/z1ge46azLLg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "12 first project data strcuture | #ingesrm #university |",
+    "videoId": "sMBs3kkdQfk",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/sMBs3kkdQfk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/sMBs3kkdQfk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/sMBs3kkdQfk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/sMBs3kkdQfk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/sMBs3kkdQfk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "13 first project data strcuture | #ingesrm #university |",
+    "videoId": "0IpLeWzH_Fs",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0IpLeWzH_Fs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0IpLeWzH_Fs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0IpLeWzH_Fs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/0IpLeWzH_Fs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/0IpLeWzH_Fs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:40Z"
+  },
+  {
+    "title": "14 first project data strcuture | #ingesrm #university |",
+    "videoId": "309c7u6Lgvg",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/309c7u6Lgvg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/309c7u6Lgvg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/309c7u6Lgvg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/309c7u6Lgvg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/309c7u6Lgvg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:40Z"
+  },
+  {
+    "title": "15 first project data strcuture | #ingesrm #university |",
+    "videoId": "9XuX5oEk4dc",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9XuX5oEk4dc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9XuX5oEk4dc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9XuX5oEk4dc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/9XuX5oEk4dc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/9XuX5oEk4dc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:40Z"
+  },
+  {
+    "title": "16 first project data strcuture | #ingesrm #university |",
+    "videoId": "Pf9Iy0CiMew",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Pf9Iy0CiMew/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Pf9Iy0CiMew/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Pf9Iy0CiMew/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Pf9Iy0CiMew/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Pf9Iy0CiMew/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "17 first project data strcuture | #ingesrm #university |",
+    "videoId": "obierICZcL0",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/obierICZcL0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/obierICZcL0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/obierICZcL0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/obierICZcL0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/obierICZcL0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "18 first project data strcuture | #ingesrm #university |",
+    "videoId": "6zTiuxk9168",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/6zTiuxk9168/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/6zTiuxk9168/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/6zTiuxk9168/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/6zTiuxk9168/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:40Z"
+  },
+  {
+    "title": "19 first project data strcuture | #ingesrm #university |",
+    "videoId": "3bwyjpmINTo",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3bwyjpmINTo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3bwyjpmINTo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3bwyjpmINTo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/3bwyjpmINTo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/3bwyjpmINTo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:40Z"
+  },
+  {
+    "title": "20 first project data strcuture | #ingesrm #university |",
+    "videoId": "26No46zFNmM",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/26No46zFNmM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/26No46zFNmM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/26No46zFNmM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/26No46zFNmM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/26No46zFNmM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:38:02Z"
+  },
+  {
+    "title": "21 first project data strcuture | #ingesrm #university |",
+    "videoId": "_-HjnS5bRzY",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_-HjnS5bRzY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_-HjnS5bRzY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_-HjnS5bRzY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/_-HjnS5bRzY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/_-HjnS5bRzY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "22 first project data strcuture | #ingesrm #university |",
+    "videoId": "x6lz5dMATWs",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/x6lz5dMATWs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/x6lz5dMATWs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/x6lz5dMATWs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/x6lz5dMATWs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/x6lz5dMATWs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "23 first project data strcuture | #ingesrm #university |",
+    "videoId": "gYn-52njxbY",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/gYn-52njxbY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/gYn-52njxbY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/gYn-52njxbY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/gYn-52njxbY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/gYn-52njxbY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "24 first project data strcuture | #ingesrm #university |",
+    "videoId": "mphG9RH9Ses",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/mphG9RH9Ses/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/mphG9RH9Ses/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/mphG9RH9Ses/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/mphG9RH9Ses/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/mphG9RH9Ses/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "25 first project data strcuture | #ingesrm #university |",
+    "videoId": "qp2blK9LjYU",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qp2blK9LjYU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qp2blK9LjYU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qp2blK9LjYU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/qp2blK9LjYU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/qp2blK9LjYU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "26 first project data strcuture | #ingesrm #university |",
+    "videoId": "ckW8jCsTSBA",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ckW8jCsTSBA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ckW8jCsTSBA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ckW8jCsTSBA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ckW8jCsTSBA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ckW8jCsTSBA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "27 first project data strcuture | #ingesrm #university |",
+    "videoId": "G0RX6XDNKHY",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/G0RX6XDNKHY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/G0RX6XDNKHY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/G0RX6XDNKHY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/G0RX6XDNKHY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/G0RX6XDNKHY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "28 first project data strcuture | #ingesrm #university |",
+    "videoId": "zbr0Nx7Tfio",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zbr0Nx7Tfio/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zbr0Nx7Tfio/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zbr0Nx7Tfio/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/zbr0Nx7Tfio/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/zbr0Nx7Tfio/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "29 first project data strcuture | #ingesrm #university |",
+    "videoId": "JstjFQQ9YAo",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JstjFQQ9YAo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JstjFQQ9YAo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JstjFQQ9YAo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/JstjFQQ9YAo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/JstjFQQ9YAo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "30 first project data strcuture | #ingesrm #university |",
+    "videoId": "zD3QsDI_XAw",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zD3QsDI_XAw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zD3QsDI_XAw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zD3QsDI_XAw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/zD3QsDI_XAw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/zD3QsDI_XAw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "31 first project data strcuture | #ingesrm #university |",
+    "videoId": "e-LrCRMlJu0",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/e-LrCRMlJu0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/e-LrCRMlJu0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/e-LrCRMlJu0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/e-LrCRMlJu0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/e-LrCRMlJu0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "32 first project data strcuture | #ingesrm #university |",
+    "videoId": "8IMF2ZzwqTg",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/8IMF2ZzwqTg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/8IMF2ZzwqTg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/8IMF2ZzwqTg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/8IMF2ZzwqTg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/8IMF2ZzwqTg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:40Z"
+  },
+  {
+    "title": "33 first project data strcuture | #ingesrm #university |",
+    "videoId": "MDG7N9EebxQ",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/MDG7N9EebxQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/MDG7N9EebxQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/MDG7N9EebxQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/MDG7N9EebxQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/MDG7N9EebxQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "34 first project data strcuture | #ingesrm #university |",
+    "videoId": "zRbEQHXOq5U",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zRbEQHXOq5U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zRbEQHXOq5U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zRbEQHXOq5U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/zRbEQHXOq5U/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/zRbEQHXOq5U/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "35 first project data strcuture | #ingesrm #university |",
+    "videoId": "TeI9TMiyvCA",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/TeI9TMiyvCA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/TeI9TMiyvCA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/TeI9TMiyvCA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/TeI9TMiyvCA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/TeI9TMiyvCA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "36 first project data strcuture | #ingesrm #university |",
+    "videoId": "9k8DtBoTIs8",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9k8DtBoTIs8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9k8DtBoTIs8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9k8DtBoTIs8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/9k8DtBoTIs8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/9k8DtBoTIs8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:40Z"
+  },
+  {
+    "title": "37 first project data strcuture | #ingesrm #university |",
+    "videoId": "wKVAVqDXllo",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/wKVAVqDXllo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/wKVAVqDXllo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/wKVAVqDXllo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/wKVAVqDXllo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/wKVAVqDXllo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "38 first project data strcuture | #ingesrm #university |",
+    "videoId": "J345bc6R8K8",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/J345bc6R8K8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/J345bc6R8K8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/J345bc6R8K8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/J345bc6R8K8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/J345bc6R8K8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "39 first project data strcuture | #ingesrm #university |",
+    "videoId": "d4ddJn3YKOc",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/d4ddJn3YKOc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/d4ddJn3YKOc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/d4ddJn3YKOc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/d4ddJn3YKOc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/d4ddJn3YKOc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "40 first project data strcuture | #ingesrm #university |",
+    "videoId": "dfj1uAc9LJs",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/dfj1uAc9LJs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/dfj1uAc9LJs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/dfj1uAc9LJs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/dfj1uAc9LJs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/dfj1uAc9LJs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "41 first project data strcuture | #ingesrm #university |",
+    "videoId": "Yp0rJ2od1_g",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Yp0rJ2od1_g/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Yp0rJ2od1_g/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Yp0rJ2od1_g/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Yp0rJ2od1_g/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Yp0rJ2od1_g/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "42 first project data strcuture | #ingesrm #university |",
+    "videoId": "0CfX6wgwXe4",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0CfX6wgwXe4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0CfX6wgwXe4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0CfX6wgwXe4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/0CfX6wgwXe4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/0CfX6wgwXe4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:40Z"
+  },
+  {
+    "title": "43 first project data strcuture | #ingesrm #university |",
+    "videoId": "KkGqMMgcbDE",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/KkGqMMgcbDE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/KkGqMMgcbDE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/KkGqMMgcbDE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/KkGqMMgcbDE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/KkGqMMgcbDE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "44 first project data strcuture | #ingesrm #university |",
+    "videoId": "-gTcY2cWDdE",
+    "description": "This video contains one part of the process of coding Data Structure project 1, from UCALDAS 2025-2, class Data Structure, teacher Jeferson Arango López\n\nTAGS IGNORE:\n\n#python #javascript #frontend #backend #html #css #project #datastructure #tree #avl #avltree #algorithms #programming #coding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/-gTcY2cWDdE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/-gTcY2cWDdE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/-gTcY2cWDdE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/-gTcY2cWDdE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/-gTcY2cWDdE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T02:03:09Z"
+  },
+  {
+    "title": "BST   Parte 1",
+    "videoId": "nALakZf4UOc",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/nALakZf4UOc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/nALakZf4UOc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/nALakZf4UOc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/nALakZf4UOc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/nALakZf4UOc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:01:06Z"
+  },
+  {
+    "title": "BST   Parte 2.1",
+    "videoId": "EbAAIrw643U",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/EbAAIrw643U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/EbAAIrw643U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/EbAAIrw643U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/EbAAIrw643U/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/EbAAIrw643U/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:01:28Z"
+  },
+  {
+    "title": "BST   Parte 2.2",
+    "videoId": "6mNKVw6LuEg",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/6mNKVw6LuEg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/6mNKVw6LuEg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/6mNKVw6LuEg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/6mNKVw6LuEg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/6mNKVw6LuEg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:01:34Z"
+  },
+  {
+    "title": "BST   Parte 3",
+    "videoId": "YGW0sg-CvTY",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YGW0sg-CvTY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YGW0sg-CvTY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YGW0sg-CvTY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/YGW0sg-CvTY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/YGW0sg-CvTY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:02:19Z"
+  },
+  {
+    "title": "BST   Parte 4",
+    "videoId": "p9z30_Cx7as",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/p9z30_Cx7as/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/p9z30_Cx7as/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/p9z30_Cx7as/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/p9z30_Cx7as/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/p9z30_Cx7as/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:02:23Z"
+  },
+  {
+    "title": "Árboles AVL - Parte 1",
+    "videoId": "ktxVeuq1PCM",
+    "description": "Se muestra un ejemplo de un BST ya construido y cómo se convierte en un AVL. Además, se muestran las reglas a tener en cuenta para la evaluación del factor de equilibrio y los giros que se pueden hacer en cada uno de los 4 casos posibles.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ktxVeuq1PCM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ktxVeuq1PCM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ktxVeuq1PCM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ktxVeuq1PCM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ktxVeuq1PCM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:02:27Z"
+  },
+  {
+    "title": "Árboles AVL - Parte 3",
+    "videoId": "VhzeBc4yO9g",
+    "description": "Se muestra un ejemplo de un BST ya construido y cómo se convierte en un AVL. Además, se muestran las reglas a tener en cuenta para la evaluación del factor de equilibrio y los giros que se pueden hacer en cada uno de los 4 casos posibles.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VhzeBc4yO9g/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VhzeBc4yO9g/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VhzeBc4yO9g/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/VhzeBc4yO9g/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/VhzeBc4yO9g/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:02:32Z"
+  },
+  {
+    "title": "Árboles AVL - Parte 4",
+    "videoId": "23_7cebfeZM",
+    "description": "Se muestra un ejemplo de un BST ya construido y cómo se convierte en un AVL. Además, se muestran las reglas a tener en cuenta para la evaluación del factor de equilibrio y los giros que se pueden hacer en cada uno de los 4 casos posibles.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/23_7cebfeZM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/23_7cebfeZM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/23_7cebfeZM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/23_7cebfeZM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/23_7cebfeZM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:03:24Z"
+  },
+  {
+    "title": "Árboles AVL - Parte 5",
+    "videoId": "JzM3VMofZ6U",
+    "description": "Se muestra un ejemplo de un BST ya construido y cómo se convierte en un AVL. Además, se muestran las reglas a tener en cuenta para la evaluación del factor de equilibrio y los giros que se pueden hacer en cada uno de los 4 casos posibles.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JzM3VMofZ6U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JzM3VMofZ6U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JzM3VMofZ6U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/JzM3VMofZ6U/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/JzM3VMofZ6U/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:03:31Z"
+  },
+  {
+    "title": "Árboles AVL - Parte 6",
+    "videoId": "JOs6xBcOCww",
+    "description": "Se explica la inserción a partir de una lista de elementos y cómo se realiza el balanceo del árbol tras cada inserción.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JOs6xBcOCww/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JOs6xBcOCww/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JOs6xBcOCww/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/JOs6xBcOCww/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/JOs6xBcOCww/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:03:36Z"
+  },
+  {
+    "title": "Árboles AVL - Parte 7",
+    "videoId": "uhqYhbgV9Jo",
+    "description": "Se explica la inserción a partir de una lista de elementos y cómo se realiza el balanceo del árbol tras cada inserción.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/uhqYhbgV9Jo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/uhqYhbgV9Jo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/uhqYhbgV9Jo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/uhqYhbgV9Jo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/uhqYhbgV9Jo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:03:40Z"
+  },
+  {
+    "title": "Árboles AVL - Parte 8",
+    "videoId": "aZbtkHgj2OI",
+    "description": "Se explica la inserción a partir de una lista de elementos y cómo se realiza el balanceo del árbol tras cada inserción.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/aZbtkHgj2OI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/aZbtkHgj2OI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/aZbtkHgj2OI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/aZbtkHgj2OI/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/aZbtkHgj2OI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:03:45Z"
+  },
+  {
+    "title": "Árboles AVL - Ejercicio 2 - Parte 1",
+    "videoId": "0mpQ2pjtWCc",
+    "description": "Se explica un nuevo ejercicio de inserción de valores en un BST realizando el balanceo del árbol.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0mpQ2pjtWCc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0mpQ2pjtWCc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0mpQ2pjtWCc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/0mpQ2pjtWCc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/0mpQ2pjtWCc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:04:19Z"
+  },
+  {
+    "title": "Árboles AVL - Ejercicio 2 - Parte 2",
+    "videoId": "jpLETQ9BvT0",
+    "description": "Se explica un ejercicio adicional sobre la inserción en los árboles BST realizando el proceso de balanceo al mismo tiempo.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/jpLETQ9BvT0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/jpLETQ9BvT0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/jpLETQ9BvT0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/jpLETQ9BvT0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/jpLETQ9BvT0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:04:23Z"
+  },
+  {
+    "title": "Árboles AVL - Ejercicio 2 - Parte 3",
+    "videoId": "pBZVS_nTJFE",
+    "description": "Se explica un ejercicio adicional sobre la inserción en los árboles BST realizando el proceso de balanceo al mismo tiempo.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/pBZVS_nTJFE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/pBZVS_nTJFE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/pBZVS_nTJFE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/pBZVS_nTJFE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/pBZVS_nTJFE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:04:26Z"
+  },
+  {
+    "title": "Algoritmo de Dijkstra",
+    "videoId": "ciavsSTTiQg",
+    "description": "Explicación del algoritmo de Dijkstra y su funcionamiento siguiendo los pasos definidos por el creador.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ciavsSTTiQg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ciavsSTTiQg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ciavsSTTiQg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-18T03:05:28Z"
+  },
+  {
+    "title": "Algoritmo de Bellman Ford",
+    "videoId": "8RUygQLWKNs",
+    "description": "Explicación del funcionamiento del algoritmo de Bellman Ford.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/8RUygQLWKNs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/8RUygQLWKNs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/8RUygQLWKNs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/8RUygQLWKNs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/8RUygQLWKNs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:05:34Z"
+  },
+  {
+    "title": "Clase Final Estructuras de Datos",
+    "videoId": "MS2ulBAnmSs",
+    "description": "Explicación de los temas que entran en el parcial final.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/MS2ulBAnmSs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/MS2ulBAnmSs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/MS2ulBAnmSs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/MS2ulBAnmSs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/MS2ulBAnmSs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:05:43Z"
+  },
+  {
+    "title": "1. Introducción a Anaconda y python básico",
+    "videoId": "QFTTtV-Hy0Y",
+    "description": "Se explica el entorno de anaconda y su funcionalidad para lanzar las diferentes herramientas. también se explica algo muy básico de python.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QFTTtV-Hy0Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QFTTtV-Hy0Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QFTTtV-Hy0Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/QFTTtV-Hy0Y/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/QFTTtV-Hy0Y/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:06:21Z"
+  },
+  {
+    "title": "2. introducción a Recursividad - Parte 1",
+    "videoId": "ddBWzzs9-Pk",
+    "description": "Se explican los conceptos asociados a la recursividad y se presenta un ejemplo de aplicación básico.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ddBWzzs9-Pk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ddBWzzs9-Pk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ddBWzzs9-Pk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ddBWzzs9-Pk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ddBWzzs9-Pk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:06:24Z"
+  },
+  {
+    "title": "3. introducción a Recursividad - Parte 2",
+    "videoId": "1wLCLjfQmbU",
+    "description": "Se explican los conceptos asociados a la recursividad y se presenta un ejemplo de aplicación básico.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/1wLCLjfQmbU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/1wLCLjfQmbU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/1wLCLjfQmbU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/1wLCLjfQmbU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/1wLCLjfQmbU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:06:28Z"
+  },
+  {
+    "title": "4. introducción a Recursividad - Parte 3",
+    "videoId": "ctQL4nTX728",
+    "description": "Se explican los conceptos asociados a la recursividad y se presenta un ejemplo de aplicación básico.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ctQL4nTX728/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ctQL4nTX728/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ctQL4nTX728/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ctQL4nTX728/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ctQL4nTX728/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:06:32Z"
+  },
+  {
+    "title": "5. Tipo de recursividad lineal (Final y no final)",
+    "videoId": "c8ZKKeZ40Xw",
+    "description": "Se explica el tipo de recursividad lineal, sus dos variantes, la final (FIFO - COLA) y la no final (LIFO - PILA)",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/c8ZKKeZ40Xw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/c8ZKKeZ40Xw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/c8ZKKeZ40Xw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/c8ZKKeZ40Xw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/c8ZKKeZ40Xw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:06:36Z"
+  },
+  {
+    "title": "6. Tipo de recursividad múltiple",
+    "videoId": "0nIyFIroEaQ",
+    "description": "Se explica la recursividad múltiple a través del ejemplo Fibonacci. Se muestra además cómo optimizar la función recursiva mediante programación dinámica.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0nIyFIroEaQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0nIyFIroEaQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0nIyFIroEaQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/0nIyFIroEaQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/0nIyFIroEaQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:07:26Z"
+  },
+  {
+    "title": "7. Introducción a Backtracking - Ejercicio de las N Reinas (N Queens)",
+    "videoId": "lID3b6wic_M",
+    "description": "Se explica el concepto de Backtracking teóricamente con el juego de SUDOKU, luego se explica la funcionalidad de código con el ejercicio de N Reinas.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lID3b6wic_M/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lID3b6wic_M/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lID3b6wic_M/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/lID3b6wic_M/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/lID3b6wic_M/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:07:31Z"
+  },
+  {
+    "title": "8. Introducción a Backtracking - Calculo de Diagonales NQueens",
+    "videoId": "24nUgXcJr2M",
+    "description": "Se explica a profundidad cómo se calcula las diagonales en N reinas",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/24nUgXcJr2M/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/24nUgXcJr2M/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/24nUgXcJr2M/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/24nUgXcJr2M/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/24nUgXcJr2M/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:07:38Z"
+  },
+  {
+    "title": "10. Backtracking - Solución al problema del Laberinto",
+    "videoId": "ckxrpgn_1WU",
+    "description": "Se explica cómo solucionar el problema del laberinto implementando backtracking recursivo.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ckxrpgn_1WU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ckxrpgn_1WU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ckxrpgn_1WU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ckxrpgn_1WU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ckxrpgn_1WU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:07:52Z"
+  },
+  {
+    "title": "11. Backtracking - Esquema de solución al problema del cuadro mágico de NxN",
+    "videoId": "Yn6O2Rtll_4",
+    "description": "Se presenta una estrategia de solución al problema del cuadro mágico de NxN haciendo falta definir las diagonales.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Yn6O2Rtll_4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Yn6O2Rtll_4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Yn6O2Rtll_4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Yn6O2Rtll_4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Yn6O2Rtll_4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:08:06Z"
+  },
+  {
+    "title": "9. Backtracking - Solución cuadro mágico 1, 2, 3",
+    "videoId": "uMlDBKIKXqQ",
+    "description": "Se explica paso a paso la solución del problema del cuadro mágico de 1, 2, 3",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/uMlDBKIKXqQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/uMlDBKIKXqQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/uMlDBKIKXqQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/uMlDBKIKXqQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/uMlDBKIKXqQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:09:14Z"
+  },
+  {
+    "title": "12. Árboles - Introducción a Árboles Binarios",
+    "videoId": "f7tsHncUSuA",
+    "description": "Se presentan las conceptualizaciones asociadas a los árboles binarios, ejemplos de estos y recorridos de los mismos.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/f7tsHncUSuA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/f7tsHncUSuA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/f7tsHncUSuA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/f7tsHncUSuA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/f7tsHncUSuA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:09:29Z"
+  },
+  {
+    "title": "13. Árboles - Inserción y Recorridos de un Árbol Binario de Búsqueda BST",
+    "videoId": "QyhFtOwdKlw",
+    "description": "Se explica cómo funciona el proceso de inserción en un BST y se muestran los recorridos en anchura y profundidad.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QyhFtOwdKlw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QyhFtOwdKlw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QyhFtOwdKlw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/QyhFtOwdKlw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/QyhFtOwdKlw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:09:34Z"
+  },
+  {
+    "title": "14. Árboles - Implementación de TAD BST - Parte 1",
+    "videoId": "OpWXcC-qDGs",
+    "description": "Se explica cómo construir el código para la clase Nodo, la clase ArbolBinario y el método de inserción en dicho árbol.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/OpWXcC-qDGs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/OpWXcC-qDGs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/OpWXcC-qDGs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/OpWXcC-qDGs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/OpWXcC-qDGs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:09:47Z"
+  },
+  {
+    "title": "16. Árboles - Recorridos en profundidad",
+    "videoId": "x1gipHUdOM8",
+    "description": "Se explica cómo implementar los recorrido pre-order, in-order y post-order en un BST.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/x1gipHUdOM8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/x1gipHUdOM8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/x1gipHUdOM8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/x1gipHUdOM8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/x1gipHUdOM8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:09:55Z"
+  },
+  {
+    "title": "17. Árboles - Función de búsqueda en un BST",
+    "videoId": "_M-i06ZZXQc",
+    "description": "Se realiza el desarrollo de la función de búsqueda y un seguimiento mediante ambientes en diagramas.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_M-i06ZZXQc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_M-i06ZZXQc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_M-i06ZZXQc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/_M-i06ZZXQc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/_M-i06ZZXQc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:10:00Z"
+  },
+  {
+    "title": "18. Árboles - Recorrido en Amplitud (Anchura) y Árbol Impar",
+    "videoId": "Sym1gwehww4",
+    "description": "Se explica cómo implementar el recorrido en amplitud de un BST. También, con base en dicho recorrido se resuelve el ejercicio de verificar si un árbol es Impar (cuando la sumatoria de los valores de los nodos de un nivel N es impar, aplica para todos los niveles del árbol).",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Sym1gwehww4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Sym1gwehww4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Sym1gwehww4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Sym1gwehww4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Sym1gwehww4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:10:42Z"
+  },
+  {
+    "title": "19. Árboles - Solución al ejercicio de las balotas que ruedan por los nodos del BST",
+    "videoId": "Fih4S6y9tpk",
+    "description": "Se explica cómo solucionar el problema del árbol que le ingresan balotas y se siguen ciertas reglas dentro del mismo.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Fih4S6y9tpk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Fih4S6y9tpk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Fih4S6y9tpk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Fih4S6y9tpk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Fih4S6y9tpk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:10:59Z"
+  },
+  {
+    "title": "20. Árboles - Solución al ejercicio de los pesos por niveles",
+    "videoId": "Gkfu_ovteKw",
+    "description": "Se da solución a la problemática de mostrar los pesos de cada nivel del BST.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Gkfu_ovteKw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Gkfu_ovteKw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Gkfu_ovteKw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Gkfu_ovteKw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Gkfu_ovteKw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:11:03Z"
+  },
+  {
+    "title": "21. Árboles - Solución al ejercicio de la búsqueda de un nodo por llave y por valor",
+    "videoId": "Innzx4mlIH8",
+    "description": "Se muestran dos diferentes formas de buscar un nodo, ya sea por llave o por valor.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Innzx4mlIH8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Innzx4mlIH8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Innzx4mlIH8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Innzx4mlIH8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Innzx4mlIH8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:11:07Z"
+  },
+  {
+    "title": "22. Árboles - Implementación del método de eliminación de nodos en un BST",
+    "videoId": "XzHJ0Cjuz00",
+    "description": "Se explican los diferentes pasos a realizar en la eliminación de un nodo en un árbol, esto considerando los 3 casos que se pueden presentar: nodo hoja, nodo con un solo hijo, y nodo con los dos hijos.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XzHJ0Cjuz00/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XzHJ0Cjuz00/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XzHJ0Cjuz00/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/XzHJ0Cjuz00/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/XzHJ0Cjuz00/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:11:11Z"
+  },
+  {
+    "title": "23. Árboles - Inserción y balanceo en un árbol AVL.",
+    "videoId": "yebHlvr8AE8",
+    "description": "Se explica un ejemplo sobre la inserción en un árbol y balanceo",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/yebHlvr8AE8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/yebHlvr8AE8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/yebHlvr8AE8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/yebHlvr8AE8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/yebHlvr8AE8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:11:15Z"
+  },
+  {
+    "title": "24. Introducción a Grafos - Parte 1",
+    "videoId": "r5dcGMBIKYY",
+    "description": "Se explica el concepto de grafos y sus principales características.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/r5dcGMBIKYY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/r5dcGMBIKYY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/r5dcGMBIKYY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/r5dcGMBIKYY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/r5dcGMBIKYY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:11:18Z"
+  },
+  {
+    "title": "25. Introducción a Grafos - Parte 2",
+    "videoId": "SyJXvqU-A_o",
+    "description": "Se explica la forma de representar un grafo a través de código en Python. Se generan métodos de adición de vértices y se realizan ejemplos.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/SyJXvqU-A_o/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/SyJXvqU-A_o/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/SyJXvqU-A_o/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/SyJXvqU-A_o/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/SyJXvqU-A_o/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:11:22Z"
+  },
+  {
+    "title": "26. Recorridos y Algoritmos de MST",
+    "videoId": "fZhnJA7jMlc",
+    "description": "Se explica cómo realizar los recorridos de anchura y profundidad en un grafo, además de los algoritmos MST Prim y Kruskal.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/fZhnJA7jMlc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/fZhnJA7jMlc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/fZhnJA7jMlc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/fZhnJA7jMlc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/fZhnJA7jMlc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-10-18T03:11:25Z"
+  },
+  {
+    "title": "The GRAPH | Review Data Structure | 1 | #ingesrm #university #review",
+    "videoId": "BgP6TRYWo0g",
+    "description": "Review of basic graph concepts, this review is for the upcoming midterm ._.\n\n\n-- TAGS IGNORE --\n\n#GraphTheory #EstructurasDeDatos #DataStructures #PythonGraphs #ReviewSession #MidtermReview #UniversidadDeCaldas #GraphClass #ClaseDeGrafos #PythonCoding #GraphImplementation #VertexClass #EdgeWeight #GrafoEnPython #EstructuraDeGrafos #GraphReview #WeightedGraph #AdjacencyList #PythonTutorial #ProgramacionEnPython #IngenieriaDeSistemas #ComputerScience #GraphTraversal #CodingPractice #StudySession #GrafoDirigido #UndirectedGraph #DirectedGraph #ClasesDeGrafos #GraphConcepts #GraphBasics #GraphAndVertex #GraphConnections #GraphRelationships #PythonOOP #ObjectOrientedProgramming #ProgramacionOrientadaAObjetos #MidtermPrep #RepasoDeGrafos #EstudiandoGrafos #EstructuraDeDatosII #GraphEdges #GraphNodes #VertexAndEdges #PythonGraphsReview #GraphCreation #UniversityPython #PythonEducation #CodingUniversity #GraphRepresentation #TeoriaDeGrafos #GraphStudy #GraphExamples #CodingGraphs #EstructurasDeDatosPython #GrafoPonderado #WeightedEdges #DataStructuresClass #RepasoDeEstructuras #GraphVertices #GraphCoding #GraphImplementationPython #PythonGraphClass #UniversityCourse #EstudioDeGrafos #GraphVisualization #AprendiendoGrafos #PythonGraphProject #GraphBuilding #GraphDemo #GraphAlgorithm #Grafo #GraphCode #GraphPrint #GraphOutput #GraphLinks #DataStructureExercise #GraphLab #GraphPractice #GraphProgramming #GraphLearning #GraphLogic #GraphConnectionsPython #GraphForBeginners #GraphReviewSession #EstructuraDeDatosUcaldas #UCaldasGraphs #PythonGraphConcepts #VertexImplementation #GraphMethods #CodingInPython #GraphLecture #PythonClassExample #GraphDevelopment #PythonGraphStructure #EstudioDeEstructuras #GraphDataStructure #GraphRepresentationPython #UniversidadDeCaldas #EstructurasDeDatos #DataStructuresClass #IngenieriaDeSistemas #UCaldasGraphs #EstructuraDeDatosUcaldas #UniversityCourse #PythonEducation #CodingUniversity #ComputerScience #ClaseDeGrafos #EstructuraDeDatosII #GraphLecture #EstudioDeEstructuras #MidtermReview #MidtermPrep #ReviewSession #StudySession #PythonGraphs #GraphImplementation #GraphClass #VertexClass #GraphCoding #GraphProgramming #GraphLogic #GraphRepresentation #GraphDataStructure #GraphImplementationPython #PythonGraphStructure #GraphMethods #VertexImplementation #GraphAlgorithm #GraphCreation #GraphBuilding #GraphDemo #GraphPrint #GraphOutput #GraphLinks #GraphPractice #GraphLab #GraphDevelopment #PythonGraphConcepts #GraphCode #CodingPractice #PythonTutorial #PythonOOP #ProgramacionOrientadaAObjetos\n\nGraph theory, estructuras de datos, data structures, Python graphs, review session, midterm review, Universidad de Caldas, graph class, clase de grafos, Python coding, graph implementation, vertex class, edge weight, grafo en Python, estructura de grafos, graph review, weighted graph, adjacency list, Python tutorial, programación en Python, ingeniería de sistemas, computer science, graph traversal, coding practice, study session, grafo dirigido, undirected graph, directed graph, clases de grafos, graph concepts, graph basics, graph and vertex, graph connections, graph relationships, Python OOP, programación orientada a objetos, midterm prep, repaso de grafos, estudiando grafos, estructura de datos II, graph edges, graph nodes, vertex and edges, Python graphs review, graph creation, university Python, Python education, coding university, graph representation, teoría de grafos, graph study, graph examples, coding graphs, estructuras de datos Python, grafo ponderado, weighted edges, data structures class, repaso de estructuras, graph vertices, graph coding, graph implementation Python, Python graph class, university course, estudio de grafos, graph visualization, aprendiendo grafos, Python graph project, graph building, graph demo, graph algorithm, grafo, graph code, graph print, graph output, graph links, data structure exercise, graph lab, graph practice, graph programming, graph learning, graph logic, graph connections Python, graph for beginners, graph review session, estructura de datos Ucaldas, Ucaldas graphs, Python graph concepts, vertex implementation, graph methods, coding in Python, graph lecture, Python class example, graph development, Python graph structure, estudio de estructuras, graph data structure, graph representation Python, Universidad de Caldas, estructuras de datos, data structures class, ingeniería de sistemas, UCalda graphs, estructura de datos Ucaldas, university course, Python education, computer science, estructura de datos II, graph lecture, estudio de estructuras, midterm review, midterm prep, review session, study session, Python graphs, graph implementation, graph class, vertex class, graph coding, graph programming, graph logic, graph representation, graph data structure, graph implementation Python, Python graph structure, graph methods, vertex implementation, graph algorithm, graph creation, graph building, graph demo, Python OOP, programación orientada a objetos",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/BgP6TRYWo0g/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/BgP6TRYWo0g/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/BgP6TRYWo0g/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/BgP6TRYWo0g/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/BgP6TRYWo0g/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-11-04T03:15:41Z"
+  },
+  {
+    "title": "Solving MERGE Conflicts - Colaborator | ARCADE Python | PED 2 | 17 | #ingesrm #university #python",
+    "videoId": "NLoYzjg6kBA",
+    "description": "In this video I check and testing the Colaborator changes, she push the MenuView.\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/NLoYzjg6kBA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/NLoYzjg6kBA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/NLoYzjg6kBA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/NLoYzjg6kBA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/NLoYzjg6kBA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-11-05T23:06:21Z"
+  },
+  {
+    "title": "Thinking Donky Idea - MOTION | ARCADE Python | PED 2 | 18.1 | #ingesrm #university #python",
+    "videoId": "ZfW8feUFCtE",
+    "description": "In this video try fix something mistakes and write the methods that I've in my mind to try move the donkey inside the screen.\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ZfW8feUFCtE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ZfW8feUFCtE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ZfW8feUFCtE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ZfW8feUFCtE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ZfW8feUFCtE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-11-06T04:20:56Z"
+  },
+  {
+    "title": "Donkey - MOTION | ARCADE Python | PED 2 | 18.2 | #ingesrm #university #python",
+    "videoId": "Layj8oVBo-Y",
+    "description": "In this video I can move the donkey by events by Dialog... after will be by other form.\n\n\nTAGS IGNORE:\n\n#ArcadeLibrary #PythonGaming #2DGames #GameDev #UniversityProjects #Ingesrm #PED21 #CodingTutorial #PythonLibrary #SoftwareTesting #InteractiveDesign #DeveloperTools #EduTech #Programming #OpenSource #SpriteAnimation #PhysicsSimulation #CreativeCoding #StudentProjects #TechInnovation #GamePrototyping #DebuggingTips #PerformanceOptimization #futuredevelopment #ArcadePythonTutorial #BasicArcadeExamples #PythonConsoleGaming #GameDevBasics #ArcadeLibraryDemo #PythonGameTesting #2DGamePrototyping #CodingFromConsole #ArcadeBeginnersGuide #PythonScriptingFun #InteractiveGameExamples #DeveloperConsoleHacks #EduGamingEssentials #SpriteTesting101 #PhysicsSimConsole #CreativeCodePlay #StudentDevChallenges #TechTutorialBeastMode #GameDebugConsole #OptimizeArcadeCode #FutureGameMakers #BeastLevelCoding #ArcadeCrashCourse #PythonPowerPlay\n\n\nArcade Library, Python Gaming, 2D Games, Game Development, University Projects, Ingesrm, PED 2.1, Coding Tutorial, Python Library, Software Testing, Interactive Design, Developer Tools, Educational Technology, Programming, Open Source, Sprite Animation, Physics Simulation, Creative Coding, Student Projects, Tech Innovation, Game Prototyping, Debugging Tips, Performance Optimization, Future Development, Code Iteration, API Mastery, Hobby Coding, Entertainment Apps, Educational Gaming, Prototyping Efficiency, Collision Detection, Developer Empowerment Arcade Python Tutorial, Basic Arcade Examples, Python Console Gaming, Game Development Basics, Arcade Library Demo, Python Game Testing, 2D Game Prototyping, Coding From Console, Arcade Beginners Guide, Python Scripting Fun, Interactive Game Examples, Developer Console Hacks, Educational Gaming Essentials, Sprite Testing 101, Physics Simulation Console, Creative Code Play, Student Development Challenges, Tech Tutorial Innovation, Game Debugging Console, Optimize Arcade Code, Future Game Makers, Epic Coding Sessions, Arcade Crash Course, Python Power Play, Console Command Mastery, Beginner Game Scripts, Hands-On Python Dev, Viral Code Demos, Next-Gen Gaming Tools, component",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Layj8oVBo-Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Layj8oVBo-Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Layj8oVBo-Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Layj8oVBo-Y/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Layj8oVBo-Y/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "publishedAt": "2025-11-06T04:26:45Z"
+  }
+]
