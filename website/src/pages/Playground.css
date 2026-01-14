@@ -256,3 +256,9 @@
     order: -1;
   }
 }
+
+@media (max-width: 370px) {
+  .playground-layout {
+    max-width: 300px;
+  }
+}

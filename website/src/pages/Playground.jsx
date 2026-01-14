@@ -326,9 +326,12 @@ function Playground() {
                     {currentContent || '# (archivo vacío)'}
                   </SyntaxHighlighter>*/}
                   <div id={"playground"} className={"playground-ctn"}>
-                    <pre className={"code pre-codapi"}>
+                    {/*<pre className={"code pre-codapi"}>
                       {currentContent || '# (archivo vacío)'}
-                    </pre>
+                    </pre>*/}
+                    <SyntaxHighlighter className={"code"} language={language} style={vscDarkPlus} showLineNumbers wrapLongLines>
+                      {currentContent || '# (archivo vacío)'}
+                    </SyntaxHighlighter>
                   </div>
                   <codapi-snippet sandbox={language} editor="basic" selector="#playground .code"></codapi-snippet>
                 </div>
