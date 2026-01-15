@@ -1,0 +1,19 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="gradED" x1="217" y1="100" x2="353" y2="100" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#00BAFF"/>
+            <stop offset="100%" stop-color="#6E56FF"/>
+        </linearGradient>
+    </defs>
+
+    <g stroke="#00E5FF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M75 60L45 100L75 140" />
+        <path d="M115 50L85 150" />
+        <path d="M125 60L155 100L125 140" />
+    </g>
+
+    <g fill="url(#gradED)">
+        <path d="M217 64V136H277V120H235V108H272V92H235V80H277V64H217Z" />
+        <path d="M293 64V136H328C345 136 353 125 353 100C353 75 345 64 328 64H293ZM309 80H325C335 80 337 87 337 100C337 113 335 120 325 120H309V80Z" />
+    </g>
+</svg>
